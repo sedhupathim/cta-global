@@ -1,1 +1,23 @@
-<p>service works!</p>
+<swiper-container #swiper   navigation="true"
+pagination="false"
+slides-per-view="3"
+slides-per-group="3"
+space-between="20"
+loop="true"
+speed="500"
+[breakpoints]="breakpoints"
+>
+  <swiper-slide *ngFor="let image of testImages">
+    <div class="swipe-container">
+        <div class="swipe-card">
+            <img class="swiperImage" src="{{image}}" alt="">
+            <h4 class="swipe-header">
+                Mechanical
+            </h4>
+            <p class="swipe-desc">
+                Ductwork, insulation, dampers, GRDs, pipe systems, control valves, ventilation fans, etc.
+            </p>
+        </div>
+    </div>
+  </swiper-slide>
+</swiper-container>
