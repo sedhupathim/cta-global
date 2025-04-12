@@ -34,19 +34,10 @@ export class ServiceComponent {
 
   constructor() {
     this.testImages = [
-      "../../assets/man.png",
-      "../../assets/man.png",
-      "../../assets/man.png",   "../../assets/man.png",
-      "../../assets/man.png",
-      "../../assets/man.png",   "../../assets/man.png",
-      "../../assets/man.png",
-      "../../assets/man.png",   "../../assets/man.png",
-      "../../assets/man.png",
-      "../../assets/man.png",   "../../assets/man.png",
-      "../../assets/man.png",
-      "../../assets/man.png",   "../../assets/man.png",
-      "../../assets/man.png",
-      "../../assets/man.png",
+      "assets/man.png",
+      "assets/man.png",
+      "assets/man.png",
+      "assets/man.png"    
     ]
   }
 }
