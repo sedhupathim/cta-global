@@ -33,3 +33,34 @@ nav {
         border: unset;
     }
 }
+.nav-link-wrapper {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    z-index: 999;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .dropdown-content li {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  

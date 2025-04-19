@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-service',
@@ -6,8 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./service.component.scss']
 })
 export class ServiceComponent {
-  testImages: Array<string>;
 
+  categories: any[] = [];
+
+  //Swiper breakpoints
   breakpoints = {
     1024: {
       slidesPerView: 3,
@@ -32,12 +35,18 @@ export class ServiceComponent {
     }
   };
 
-  constructor() {
-    this.testImages = [
-      "assets/man.png",
-      "assets/man.png",
-      "assets/man.png",
-      "assets/man.png"    
-    ]
+ constructor(private http: HttpClient) {}
+
+
+
+
+  ngOnInit() {
+    
+    this.http.get<any[]>('assets/product-categories.json')
+      .subscribe(data => {
+        this.categories = data;
+        console.log(this.categories)
+      });
   }
+
 }

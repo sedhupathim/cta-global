@@ -3,19 +3,19 @@ pagination="false"
 slides-per-view="3"
 slides-per-group="3"
 space-between="20"
-loop="true"
+loop="false"
 speed="500"
 [breakpoints]="breakpoints"
 >
-  <swiper-slide *ngFor="let image of testImages">
+  <swiper-slide *ngFor="let category of categories">
     <div class="swipe-container">
         <div class="swipe-card">
-            <img class="swiperImage" src="{{image}}" alt="">
+            <img class="swiperImage" src="{{category?.image}}" [alt]="category?.cate_name">
             <h4 class="swipe-header">
-                Mechanical
+                {{category?.cate_name}}
             </h4>
             <p class="swipe-desc">
-                Ductwork, insulation, dampers, GRDs, pipe systems, control valves, ventilation fans, etc.
+              {{category?.description}}
             </p>
         </div>
     </div>
