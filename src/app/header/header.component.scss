@@ -11,12 +11,12 @@ nav {
     gap: 50px;
     .nav-item {
         a {
-            color: #4D4D4D;
-          font-family: "Be Vietnam Pro", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: normal;
-            padding: 0;
+          color: #1F1F1F;
+          font-family: 'Proxima Nova', sans-serif;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: normal;
+          padding: 0;
         }
     }
 }
@@ -44,23 +44,56 @@ nav {
     background: white;
     border: 1px solid #ddd;
     z-index: 999;
-    min-width: 200px;
+    width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
   }
   
   .dropdown-content ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    width: 25%;
+    min-width: 200px;
+      li {
+        padding: 8px 12px;
+        cursor: pointer;
+        &:hover {
+          background-color: #f0f0f0;
+        }
+      }
   }
-  
-  .dropdown-content li {
-    padding: 8px 12px;
-    cursor: pointer;
+  .product-dropdown {
+    width: calc(100% - 200px);
+    position: relative;
+    display: block;
+    padding: 30px;
+    .product-grid {
+      .row {
+        .col-md-4 {
+          flex-direction: column;
+          padding: 10px;
+        }
+      }
+      img {
+        width: 75px;
+        height: 75px;
+        background: #D9D9D9;
+        margin-bottom: 14px;
+      }
+      span {
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 200px;
+      }
+    }
   }
-  
-  .dropdown-content li:hover {
-    background-color: #f0f0f0;
-  }
-  
-  
