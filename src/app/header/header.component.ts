@@ -10,6 +10,7 @@ export class HeaderComponent {
   activeTab: string = 'Home'; // Default active tab
   showDropdown = false;
   categories: any[] = [];
+  hoveredCategory: any = null;
 
 
   navItems = [

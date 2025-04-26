@@ -7,31 +7,94 @@
       "productList": [
         {
           "id": "1.1",
-          "cate_name": "Air Side",
-          "image": "assets/product-images/air_side.png",
+          "cate_name": "Air Ducts",
+          "image": "assets/product-images/air_ducts.png",
           "description": "Air distribution and ventilation components",
-          "productList": [
-            { "id": "1.1.1", "cate_name": "Chilled Water Fan Coil Units", "image": "assets/product-images/fcu.png", "description": "", "productList": [] },
-            { "id": "1.1.2", "cate_name": "DX Units", "image": "assets/product-images/dx_units.png", "description": "", "productList": [] },
-            { "id": "1.1.3", "cate_name": "VRV Multi Split", "image": "assets/product-images/vrv_multi_split.png", "description": "", "productList": [] },
-            { "id": "1.1.4", "cate_name": "AHU", "image": "assets/product-images/ahu.png", "description": "", "productList": [] },
-            { "id": "1.1.5", "cate_name": "Energy Recovery Wheel", "image": "assets/product-images/energy_recovery_wheel.png", "description": "", "productList": [] },
-            { "id": "1.1.6", "cate_name": "Fresh Air AHU", "image": "assets/product-images/fresh_air_ahu.png", "description": "", "productList": [] },
-            { "id": "1.1.7", "cate_name": "Ventilation Fan", "image": "assets/product-images/ventilation_fan.png", "description": "", "productList": [] }
-          ]
+          "productList": []
         },
         {
           "id": "1.2",
-          "cate_name": "Chilled Water System",
-          "image": "assets/product-images/chilled_water_system.png",
+          "cate_name": "Ducts & Accessories",
+          "image": "assets/product-images/ducts_accessories.png",
           "description": "Chilled and hot water system equipment",
-          "productList": [
-            { "id": "1.2.1", "cate_name": "Chilled Water Pump", "image": "assets/product-images/chilled_water_pump.png", "description": "", "productList": [] },
-            { "id": "1.2.2", "cate_name": "Heat Exchanger", "image": "assets/product-images/heat_exchanger.png", "description": "", "productList": [] },
-            { "id": "1.2.3", "cate_name": "Air Separator", "image": "assets/product-images/air_separator.png", "description": "", "productList": [] },
-            { "id": "1.2.4", "cate_name": "Dosing Units", "image": "assets/product-images/dosing_units.png", "description": "", "productList": [] },
-            { "id": "1.2.5", "cate_name": "Pressurization Units", "image": "assets/product-images/pressurization_units.png", "description": "", "productList": [] }
-          ]
+          "productList": []
+        },
+        {
+          "id": "1.3",
+          "cate_name": "Sound Attenuators",
+          "image": "assets/product-images/sound_atten.png",
+          "description": "Air distribution and ventilation components",
+          "productList": []
+        },
+        {
+          "id": "1.4",
+          "cate_name": "Air Terminals",
+          "image": "assets/product-images/air_terminals.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.5",
+          "cate_name": "Louvers",
+          "image": "assets/product-images/louvers.png",
+          "description": "Air distribution and ventilation components",
+          "productList": []
+        },
+        {
+          "id": "1.6",
+          "cate_name": "Air Outlets (GRD)",
+          "image": "assets/product-images/air_outlets.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.7",
+          "cate_name": "Air Curtains",
+          "image": "assets/product-images/air_curtains.png",
+          "description": "Air distribution and ventilation components",
+          "productList": []
+        },
+        {
+          "id": "1.8",
+          "cate_name": "Air Side Accessories",
+          "image": "assets/product-images/air_side_accessories.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.9",
+          "cate_name": "HVAC insulation and Accessories",
+          "image": "assets/product-images/HVAC_insulation.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.10",
+          "cate_name": "Chilled and Hot Water System",
+          "image": "assets/product-images/chilled_hot_water.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.11",
+          "cate_name": "Equipment’s",
+          "image": "assets/product-images/equipments.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.12",
+          "cate_name": "Controls",
+          "image": "assets/product-images/controls.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.13",
+          "cate_name": "Critical Environment & Displacement Ventilation - Intertek Certified",
+          "image": "assets/product-images/crit_env_displacement_ventilation.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
         }
       ]
     },
