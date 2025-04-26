@@ -37,8 +37,8 @@ export class HeaderComponent {
 
 
   openWhatsApp() {
-    const phoneNumber = "919524021452";
-    const message = "Hello Sedhupathi";
+    const phoneNumber = "+1(345)3278457";
+    const message = "Hello CTA Glogal";
     const encodedMsg = encodeURIComponent(message);
   
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
