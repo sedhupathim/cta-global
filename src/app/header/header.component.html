@@ -50,7 +50,7 @@
                     <div class="row">
                       <div 
                         class="col-md-4 d-flex align-items-center product-item"
-                        *ngFor="let subCategory of hoveredCategory.productList.slice(0,9)"
+                        *ngFor="let subCategory of hoveredCategory.productList"
                       >
                         <img [src]="subCategory.image" alt="Product Image" class="product-image">
                         <span class="drop-desc">
