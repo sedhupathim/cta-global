@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
 nav {
     height: 100px;
 }
@@ -23,6 +18,20 @@ nav {
           }
           &:hover {
             color: #36B864 !important; 
+          }
+          &.btn{
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: normal;
+            padding: 10px 32px;
+            background: #36B864;
+            transition: 0.5s;
+    
+                &:hover {
+                   color: #36B864;
+                   background:#fff ;
+                }
           }
         }
     }
@@ -54,11 +63,8 @@ nav {
     z-index: 999;
     width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    border-radius: 20px;
-  }
-  
-  .dropdown-content ul {
+   // border-radius: 20px;
+   ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -67,20 +73,22 @@ nav {
     padding: 25px 0px 0 30px;
 
       li {
-        padding: 10px 20px;
+        padding: 10px 17px;
         cursor: pointer;
         margin-bottom: 6px;
         color: #212121;
-        font-size: 1.375rem;
+        font-size: 20px;
         font-weight: 600;
         line-height: 26px; 
+        border-left: 3px solid transparent;
         &:hover {
-          border-radius: 6px;
-          border: 1px solid rgba(54, 184, 100, 0.60);
-          background: rgba(54, 184, 100, 0.18);
+         // border-radius: 6px;
+          border-color:rgba(54, 184, 100, 0.60);
+          color: rgba(54, 184, 100, 0.60);
         }
       }
   }
+}
   .product-dropdown {
     width: calc(100% - 200px);
     position: relative;
@@ -89,7 +97,7 @@ nav {
     .product-grid {
       .row {
         .col-md-4 {
-          flex-direction: column;
+       //   flex-direction: column;
           padding: 10px;
         }
       }
@@ -102,16 +110,17 @@ nav {
       span {
         color: #000;
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 26px;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 1;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 200px;
+        margin: auto;
+        width: 150px;
       }
       .view-all {
         color: #000;
@@ -152,5 +161,5 @@ nav {
       border: 1px solid #84A2FA;
     }
     .menu-icon {
-      margin-left: 1.75rem;
+      margin-left: 20px;
     }
