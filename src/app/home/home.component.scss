@@ -129,17 +129,13 @@ body {
     box-shadow: 0px 4px 24px 0px rgba(7, 100, 56, 0.33);
     position: relative;
     z-index: 999;
-    @media (min-width: 1024px) {
-        height: 654px;
-    }
+    padding:50px 0 70px 0;
     @media (max-width: 767px) {
         padding: 30px 0 40px 0;
         box-shadow: unset;
     }
     .choose-head {
         color: #111D15;
-        leading-trim: both;
-        text-edge: cap;
         font-size: 44px;
         font-style: normal;
         font-weight: 600;
@@ -165,10 +161,6 @@ body {
         padding: 10px;
         align-items: center;
         gap: 8px;
-        align-self: stretch;
-        border-radius: 4px;
-        background: #F5F4F4;
-        width: 322px;
         margin-bottom: 1rem;
         @media (max-width: 767px) {
             margin: auto;
@@ -176,27 +168,17 @@ body {
             margin-bottom: 1rem;
         }
         .bg-green-icon {
-            width: 16px;
-            height: 16px;
+            width: 18px;
+            height: 18px;
             border-radius: 50%;
             background-color: #36B864;
         }
         .choose-box-desc {
             color: #111D15;
-            leading-trim: both;
-            text-edge: cap;
-            font-size: 16px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 600;
-            line-height: 120%;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            @media (max-width: 767px) {
-                white-space: wrap;  
-                text-overflow: unset;
-                overflow: unset;
-            }
+            line-height: 1;
         }
     }
     .image-position {

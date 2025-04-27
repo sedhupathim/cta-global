@@ -30,3 +30,20 @@
 .full-width{
     width: 100%;
 }
+
+// swiper arrow
+
+.swiper-button-next, .swiper-button-prev{
+    background-image: url('data:image/svg+xml,<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="26" cy="26" r="26" fill="%2336B864"/><path d="M28.4918 32.6106C27.9919 33.1236 27.9919 33.9554 28.4918 34.4685C28.9917 34.9815 29.8021 34.9815 30.302 34.4685L37.1289 27.4619C37.6288 26.9489 37.6288 26.117 37.1289 25.604L30.302 18.5974C29.8021 18.0844 28.9917 18.0844 28.4918 18.5974C27.9919 19.1105 27.9919 19.9423 28.4918 20.4553L33.1335 25.2192H16.5965C15.8895 25.2192 15.3164 25.8074 15.3164 26.5329C15.3164 27.2585 15.8895 27.8467 16.5965 27.8467H33.1335L28.4918 32.6106Z" fill="white"/></svg>');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    svg{
+        display: none
+    }
+}
+.max-content{
+    max-width: max-content;
+}

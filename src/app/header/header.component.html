@@ -1,6 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-white d-flex justify-content-center align-items-center">
     <div class="container px-4"> 
-
       
       <!-- Left: Logo -->
       <a class="navbar-brand d-flex align-items-center" href="#">
@@ -19,72 +18,57 @@
             
             <!-- Wrap link + dropdown in one container for hover detection -->
             <div 
-              class="nav-link-wrapper" 
-              (mouseenter)="item.name === 'Service' ? showDropdown = true : null"
-              (mouseleave)="item.name === 'Service' ? showDropdown = false : null"
-            >
-              <a 
-                class="nav-link" 
-                [class.active]="activeTab === item.name"
-                (click)="setActiveTab(item.name)">
-                {{ item.label }}
-              </a>
-      
-              <!-- Dropdown only for Service -->
-              <div class="dropdown-content" *ngIf="item.name === 'Service'">
-                <div class="d-flex dropdown-list">
-                <ul>
-                  <li *ngFor="let category of categories">{{ category?.cate_name }}</li>
+            class="nav-link-wrapper" 
+            (mouseenter)="item.name === 'Service' ? showDropdown = true : null"
+            (mouseleave)="item.name === 'Service' ? showDropdown = false : null"
+          >
+            <a 
+              class="nav-link" 
+              [class.active]="activeTab === item.name"
+              (click)="setActiveTab(item.name)">
+              {{ item.label }}
+            </a>
+          
+            <!-- Dropdown only for Service -->
+            <div class="dropdown-content" *ngIf="item.name === 'Service' && showDropdown">
+              <div class="d-flex dropdown-list">
+              
+               
+              <div class="dropdown-inner d-flex">
+                
+                <!-- Left Side Categories -->
+                <ul class="category-list">
+                  <li 
+                    *ngFor="let category of categories"
+                    (mouseenter)="hoveredCategory = category"
+                    (mouseleave)="hoveredCategory = null"
+                  >
+                    {{ category.cate_name }}
+                  </li>
                 </ul>
-                <div class="product-dropdown">
-                  <div class=" product-grid">
-                     <div class="row">
-                        <div class="col-md-4 d-flex align-items-center flex-column ">
-                           <img src="../../assets/construct2.png" alt="empty">
-                           <span class="drop-decs">
-                            Air Side
-                           </span>
-                        </div>
-                        <div class="col-md-4 d-flex align-items-center">
-                          <img src="" alt="empty">
-                          <span class="drop-decs">
-                            Chilled water and hot water system
-                          </span>
-                        </div>
-                        <div class="col-md-4 d-flex align-items-center">
-                          <img src="" alt="empty">
-                          <span class="drop-decs">
-                            Equipment’s
-                          </span>
-                        </div>
-                        <div class="col-md-4 d-flex align-items-center">
-                          <img src="" alt="empty">
-                          <span class="drop-decs">
-                           Air Side
-                          </span>
-                       </div>
-                       <div class="col-md-4 d-flex align-items-center">
-                         <img src="" alt="empty">
-                         <span class="drop-decs">
-                           Chilled water and hot water system
-                         </span>
-                       </div>
-                       <div class="col-md-4 d-flex align-items-center">
-                         <img src="" alt="empty">
-                         <span class="drop-decs">
-                           Equipment’s
-                         </span>
-                       </div>
-                     </div>
+          
+                <!-- Right Side Product List -->
+                <div class="product-dropdown" *ngIf="hoveredCategory">
+                  <div class="product-grid">
+                    <div class="row">
+                      <div 
+                        class="col-md-4 d-flex align-items-center product-item flex-column"
+                        *ngFor="let subCategory of hoveredCategory.productList"
+                      >
+                        <img [src]="subCategory.image" alt="Product Image" class="product-image">
+                        <span class="drop-desc">
+                          {{ subCategory.cate_name }}
+                        </span>
+                      </div>
+                    </div>
                   </div>
-                  <div class="d-flex product-grid">
-
-                  </div>
-                </div>
-                </div>
-                <a href="" class="btn primary-btn full-width flex-1">View All Products</a>
+                </div>          
               </div>
+              </div>
+              <a href="" class="btn primary-btn full-width flex-1">View All Products</a>
             </div>
+          </div>
+          
             
           </li>
         </ul>          

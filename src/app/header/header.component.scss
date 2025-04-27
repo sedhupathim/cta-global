@@ -21,15 +21,16 @@ nav {
           }
           &.btn{
             color: #FFF;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 600;
             line-height: normal;
-            padding: 17px 32px;
+            padding: 10px 32px;
             background: #36B864;
             transition: 0.5s;
     
                 &:hover {
-                   color: #fff;
+                   color: #36B864;
+                   background:#fff ;
                 }
           }
         }
@@ -109,16 +110,17 @@ nav {
       span {
         color: #000;
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 26px;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 1;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 200px;
+        margin: auto;
+        width: 150px;
       }
       .view-all {
         color: #000;
