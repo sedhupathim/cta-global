@@ -1,0 +1,192 @@
+[
+    {
+      "id": "1",
+      "cate_name": "Mechanical",
+      "image": "assets/product-images/mechanical.png",
+      "description": "Mechanical systems including air side and chilled water systems",
+      "productList": [
+        {
+          "id": "1.1",
+          "cate_name": "Air Ducts",
+          "image": "assets/product-images/air_ducts.png",
+          "description": "Air distribution and ventilation components",
+          "productList": []
+        },
+        {
+          "id": "1.2",
+          "cate_name": "Ducts & Accessories",
+          "image": "assets/product-images/ducts_accessories.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.3",
+          "cate_name": "Sound Attenuators",
+          "image": "assets/product-images/sound_atten.png",
+          "description": "Air distribution and ventilation components",
+          "productList": []
+        },
+        {
+          "id": "1.4",
+          "cate_name": "Air Terminals",
+          "image": "assets/product-images/air_terminals.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.5",
+          "cate_name": "Louvers",
+          "image": "assets/product-images/louvers.png",
+          "description": "Air distribution and ventilation components",
+          "productList": []
+        },
+        {
+          "id": "1.6",
+          "cate_name": "Air Outlets (GRD)",
+          "image": "assets/product-images/air_outlets.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.7",
+          "cate_name": "Air Curtains",
+          "image": "assets/product-images/air_curtains.png",
+          "description": "Air distribution and ventilation components",
+          "productList": []
+        },
+        {
+          "id": "1.8",
+          "cate_name": "Air Side Accessories",
+          "image": "assets/product-images/air_side_accessories.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.9",
+          "cate_name": "HVAC insulation and Accessories",
+          "image": "assets/product-images/HVAC_insulation.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.10",
+          "cate_name": "Chilled and Hot Water System",
+          "image": "assets/product-images/chilled_hot_water.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.11",
+          "cate_name": "Equipment’s",
+          "image": "assets/product-images/equipments.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.12",
+          "cate_name": "Controls",
+          "image": "assets/product-images/controls.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        },
+        {
+          "id": "1.13",
+          "cate_name": "Critical Environment & Displacement Ventilation - Intertek Certified",
+          "image": "assets/product-images/crit_env_displacement_ventilation.png",
+          "description": "Chilled and hot water system equipment",
+          "productList": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cate_name": "Electrical",
+      "image": "assets/product-images/electrical.png",
+      "description": "Electrical systems including lighting, power and control",
+      "productList": [
+        {
+          "id": "2.1",
+          "cate_name": "Lighting & Accessories",
+          "image": "assets/product-images/lighting.png",
+          "description": "",
+          "productList": []
+        },
+        {
+          "id": "2.2",
+          "cate_name": "Power",
+          "image": "assets/product-images/power.png",
+          "description": "Power systems and infrastructure - [Visit Site](https://www.powertechswitchgear.com/)",
+          "productList": []
+        },
+        {
+          "id": "2.3",
+          "cate_name": "Control Panels",
+          "image": "assets/product-images/control_panels.png",
+          "description": "",
+          "productList": []
+        },
+        {
+          "id": "2.4",
+          "cate_name": "Switch Gear",
+          "image": "assets/product-images/switch_gear.png",
+          "description": "",
+          "productList": []
+        },
+        {
+          "id": "2.5",
+          "cate_name": "Transformers",
+          "image": "assets/product-images/transformers.png",
+          "description": "",
+          "productList": []
+        },
+        {
+          "id": "2.6",
+          "cate_name": "Cables and Accessories",
+          "image": "assets/product-images/cables.png",
+          "description": "Refer: [Ducab](https://ducab.com)",
+          "productList": []
+        },
+        {
+          "id": "2.7",
+          "cate_name": "UPS",
+          "image": "assets/product-images/ups.png",
+          "description": "",
+          "productList": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cate_name": "Plumbing",
+      "image": "assets/product-images/plumbing.png",
+      "description": "Plumbing systems including water and drainage",
+      "productList": [
+        { "id": "3.1", "cate_name": "Domestic Water Pipes and Fittings", "image": "assets/product-images/domestic_pipes.png", "description": "", "productList": [] },
+        { "id": "3.2", "cate_name": "Drainage Pipes and Fittings", "image": "assets/product-images/drainage_pipes.png", "description": "", "productList": [] },
+        { "id": "3.3", "cate_name": "Control Valves and Accessories", "image": "assets/product-images/control_valves.png", "description": "", "productList": [] },
+        { "id": "3.4", "cate_name": "Plumbing Equipment", "image": "assets/product-images/plumbing_equipment.png", "description": "", "productList": [] }
+      ]
+    },
+    {
+      "id": "4",
+      "cate_name": "Fire Protection",
+      "image": "assets/product-images/fire_protection.png",
+      "description": "Fire safety and protection systems",
+      "productList": []
+    },
+    {
+      "id": "5",
+      "cate_name": "Architectural",
+      "image": "assets/product-images/architectural.png",
+      "description": "Architectural components and designs",
+      "productList": []
+    },
+    {
+      "id": "6",
+      "cate_name": "Structural",
+      "image": "assets/product-images/structural.png",
+      "description": "Structural components and framework",
+      "productList": []
+    }
+  ]
+  
