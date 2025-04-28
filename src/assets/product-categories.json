@@ -10,7 +10,116 @@
           "cate_name": "Air Ducts",
           "image": "assets/product-images/air_ducts.png",
           "description": "Air distribution and ventilation components",
-          "productList": []
+          "productList": [
+            {
+              "id": "1.1.1",
+              "cate_name": "Phenolic and Pre-Insulated Duct board and accessories – UL listed",
+              "image": "assets/product-images/air_ducts.png",
+              "description": "Air distribution and ventilation components",
+              "productList": [
+                {
+                  "id": "1.1.1.1",
+                  "product_name": "Pre-Clad PIR",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.1.2",
+                  "product_name": "Pre-Clad Phenolic",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.1.3",
+                  "product_name": "PalDuct Eco",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.1.4",
+                  "product_name": "PalDuct PIR",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.1.5",
+                  "product_name": "PalDuct Phenolic",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.1.6",
+                  "product_name": "PalDuct Panel Accessories, Adhesive Material & Components",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                }
+              ]
+            },
+            {
+              "id": "1.1.2",
+              "cate_name": "Fire rated ducts",
+              "image": "assets/product-images/air_ducts.png",
+              "description": "Air distribution and ventilation components",
+              "productList": [
+                {
+                  "id": "1.1.2.1",
+                  "product_name": "Non-Coated Fire Rated Duct",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.2.2",
+                  "product_name": "Fire coated Fire rated Ducts",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                }
+              ]
+            },
+            {
+              "id": "1.1.3",
+              "cate_name": "Non-Fire Rated ducts",
+              "image": "assets/product-images/air_ducts.png",
+              "description": "Air distribution and ventilation components",
+              "productList": [
+                {
+                  "id": "1.1.3.1",
+                  "product_name": "Spiral Duct and accessories",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.3.2",
+                  "product_name": "Rectangular Ducts",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.3.3",
+                  "product_name": "Stainless steel Ducts",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.3.4",
+                  "product_name": "Aluminum Ducts",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.3.5",
+                  "product_name": "Galvanized Iron Ducts",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                },
+                {
+                  "id": "1.1.3.6",
+                  "product_name": "Flexible air ducts",
+                  "image": "assets/product-images/air_ducts.png",
+                  "description": "Air distribution and ventilation components"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "1.2",
