@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'products', component: ProductListComponent },
+  { path: 'products/category/:category_slug', component: ProductListComponent },
   { path: '**', redirectTo: '' }, // Optional: redirect unknown routes to home
 ];
 

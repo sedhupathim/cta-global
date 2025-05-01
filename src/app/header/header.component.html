@@ -32,7 +32,7 @@
                   <!-- Left Side Categories Start-->
                   <ul class="category-list">
                     <li *ngFor="let category of categories" (mouseenter)="hoveredCategory = category"
-                      (mouseleave)="hoveredCategory = null">
+                      (click)="openProduct(category)">
                       {{ category.cate_name }}
                     </li>
                   </ul>

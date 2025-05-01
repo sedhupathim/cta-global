@@ -1,15 +1,15 @@
 <section class="product-section">
     <div class="container">
         <div class="product-bread-crumb">
-            <span class="parent-crumb">Home</span> / <span class="child-crumb">Mechanical</span>
+            <span class="parent-crumb">Home</span> / <span class="child-crumb">{{selectedCategory?.cate_name}}</span>
         </div>
         <div class="product-header">
-           <h2>Mechanical</h2>
+           <h2>{{selectedCategory?.cate_name}}</h2>
         </div>
         <div class="product-desc">
-           <p>Premium performance technical insulation products and systems for pipe and ductwork in building services, HVAC and industrial applications.</p>
+           <p>{{selectedCategory?.description}}</p>
         </div>
-        <div class="product-btns">
+        <div class="product-btns" *ngIf="false">
           <a class="btn-product">All</a>
           <a class="btn-product">PRE-INSULATED DUCT</a>
         </div>

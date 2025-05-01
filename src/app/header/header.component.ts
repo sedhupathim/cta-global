@@ -51,8 +51,15 @@ export class HeaderComponent {
       window.open(url, "_blank");
   }
   
-  openProduct(){
-   this.router.navigate(["/products"])
+  openProduct(category = null) {
+    console.log(category);
+    this.showDropdown = false; // Close the dropdown after selection
+    if (category && category['slug']) {
+      this.router.navigate([ `/products/category/${category['slug']}`]);
+    } 
+    else {
+      this.router.navigate(["/products"]);
+    }
   }
 
 

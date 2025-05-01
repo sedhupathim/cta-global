@@ -4,6 +4,7 @@
       "cate_name": "Mechanical",
       "image": "assets/product-images/mechanical.png",
       "description": "Mechanical systems including air side and chilled water systems",
+      "slug": "mechanical",
       "productList": [
         {
           "id": "1.1",
@@ -212,6 +213,7 @@
       "cate_name": "Electrical",
       "image": "assets/product-images/electrical.png",
       "description": "Electrical systems including lighting, power and control",
+      "slug": "electrical",
       "productList": [
         {
           "id": "2.1",
@@ -269,6 +271,7 @@
       "cate_name": "Plumbing",
       "image": "assets/product-images/plumbing.png",
       "description": "Plumbing systems including water and drainage",
+      "slug": "plumbing",
       "productList": [
         { "id": "3.1", "cate_name": "Domestic Water Pipes and Fittings", "image": "assets/product-images/domestic_pipes.png", "description": "", "productList": [] },
         { "id": "3.2", "cate_name": "Drainage Pipes and Fittings", "image": "assets/product-images/drainage_pipes.png", "description": "", "productList": [] },
@@ -281,6 +284,7 @@
       "cate_name": "Fire Protection",
       "image": "assets/product-images/fire_protection.png",
       "description": "Fire safety and protection systems",
+      "slug": "fire-protection",
       "productList": []
     },
     {
@@ -288,6 +292,7 @@
       "cate_name": "Architectural",
       "image": "assets/product-images/architectural.png",
       "description": "Architectural components and designs",
+      "slug": "architectural",
       "productList": []
     },
     {
@@ -295,6 +300,7 @@
       "cate_name": "Structural",
       "image": "assets/product-images/structural.png",
       "description": "Structural components and framework",
+      "slug": "structural",
       "productList": []
     }
   ]
