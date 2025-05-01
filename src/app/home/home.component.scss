@@ -172,10 +172,15 @@ body {
             margin-bottom: 1rem;
         }
         .bg-green-icon {
-            width: 18px;
+            max-width: 18px;
+            width: 100%;
             height: 18px;
             border-radius: 50%;
             background-color: #36B864;
+
+            svg {
+                margin: 3px 0px 2px 2px;
+            }
         }
         .choose-box-desc {
             color: #111D15;
