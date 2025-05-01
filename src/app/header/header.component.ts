@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +11,7 @@ export class HeaderComponent {
   activeTab: string = 'Home'; // Default active tab
   showDropdown = false;
   categories: any[] = [];
+  hoveredCategory: any = null;
 
 
   navItems = [
@@ -20,7 +22,9 @@ export class HeaderComponent {
   ];
 
   
- constructor(private http: HttpClient) {}
+ constructor(private http: HttpClient,
+  private router : Router
+ ) {}
 
   setActiveTab(tabName: string) {
     this.activeTab = tabName;
@@ -40,15 +44,16 @@ export class HeaderComponent {
     const phoneNumber = "+1(345)3278457";
     const message = "Hello CTA Glogal";
     const encodedMsg = encodeURIComponent(message);
-  
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-  
     const url = isMobile
       ? `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMsg}`
       : `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMsg}`;
-  
-    window.open(url, "_blank");
+      window.open(url, "_blank");
   }
   
+  openProduct(){
+   this.router.navigate(["/products"])
+  }
+
 
 }
