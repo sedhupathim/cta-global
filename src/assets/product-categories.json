@@ -126,56 +126,56 @@
           "id": "1.2",
           "cate_name": "Ducts & Accessories",
           "image": "assets/product-images/ducts_accessories.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "Durable ducts and accessories for efficient air distribution and airflow control in HVAC systems.",
           "productList": []
         },
         {
           "id": "1.3",
           "cate_name": "Sound Attenuators",
-          "image": "assets/product-images/sound_atten.png",
-          "description": "Air distribution and ventilation components",
+          "image": "assets/product-images/sound_atten.jpg",
+          "description": "Sound attenuators designed to reduce noise and ensure quiet airflow in HVAC duct systems.",
           "productList": []
         },
         {
           "id": "1.4",
           "cate_name": "Air Terminals",
           "image": "assets/product-images/air_terminals.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "Air terminals that control and distribute conditioned air efficiently in HVAC systems.",
           "productList": []
         },
         {
           "id": "1.5",
           "cate_name": "Louvers",
           "image": "assets/product-images/louvers.png",
-          "description": "Air distribution and ventilation components",
+          "description": "Louvers designed to allow airflow while preventing rain, debris, and unwanted elements in HVAC systems.",
           "productList": []
         },
         {
           "id": "1.6",
           "cate_name": "Air Outlets (GRD)",
           "image": "assets/product-images/air_outlets.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "Air outlets (grilles, registers, diffusers) that distribute and direct airflow effectively in HVAC spaces.",
           "productList": []
         },
         {
           "id": "1.7",
           "cate_name": "Air Curtains",
-          "image": "assets/product-images/air_curtains.png",
-          "description": "Air distribution and ventilation components",
+          "image": "assets/product-images/air_curtains.webp",
+          "description": "Air curtains that create an invisible barrier to maintain indoor air quality and save energy.",
           "productList": []
         },
         {
           "id": "1.8",
           "cate_name": "Air Side Accessories",
           "image": "assets/product-images/air_side_accessories.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "Air side accessories that enhance airflow control, distribution, and system efficiency in HVAC applications.",
           "productList": []
         },
         {
           "id": "1.9",
           "cate_name": "HVAC insulation and Accessories",
-          "image": "assets/product-images/HVAC_insulation.png",
-          "description": "Chilled and hot water system equipment",
+          "image": "assets/product-images/HVAC_insulation.webp",
+          "description": "Insulation and accessories that improve energy efficiency, reduce noise, and protect HVAC systems.",
           "productList": []
         },
         {
@@ -189,21 +189,21 @@
           "id": "1.11",
           "cate_name": "Equipment’s",
           "image": "assets/product-images/equipments.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "High-performance HVAC equipment designed for reliable, energy-efficient heating, cooling, and ventilation.",
           "productList": []
         },
         {
           "id": "1.12",
           "cate_name": "Controls",
           "image": "assets/product-images/controls.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "Advanced HVAC controls that optimize system performance, enhance energy efficiency, and provide seamless operation.",
           "productList": []
         },
         {
           "id": "1.13",
           "cate_name": "Critical Environment & Displacement Ventilation - Intertek Certified",
-          "image": "assets/product-images/crit_env_displacement_ventilation.png",
-          "description": "Chilled and hot water system equipment",
+          "image": "assets/product-images/crit_env_displacement_ventilation.jpeg",
+          "description": "Intertek certified critical environment and displacement ventilation systems ensuring optimal air quality and precise control in sensitive areas.",
           "productList": []
         }
       ]

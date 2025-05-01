@@ -58,7 +58,7 @@ export class HeaderComponent {
       this.router.navigate([ `/products/category/${category['slug']}`]);
     } 
     else {
-      this.router.navigate(["/products"]);
+      this.router.navigate([ `/products/category/mechanical`]);
     }
   }
 
