@@ -62,5 +62,12 @@ export class HeaderComponent {
     }
   }
 
+  openSubProducts(categorySlug: string, subCategory: any){
+   console.log(categorySlug, subCategory)
+   this.showDropdown = false; // Close the dropdown after selection
+   if (subCategory) {
+     this.router.navigate([ `/products/category/${categorySlug}`]);
+   } 
+  }
 
 }
