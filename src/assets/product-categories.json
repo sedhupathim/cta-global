@@ -9,8 +9,9 @@
         {
           "id": "1.1",
           "cate_name": "Air Ducts",
-          "image": "assets/product-images/air_ducts.png",
+          "image": "assets/product-images/air_ducts.jpg",
           "description": "Air distribution and ventilation components",
+          "slug": "air-ducts",
           "productList": [
             {
               "id": "1.1.1",
@@ -125,8 +126,9 @@
         {
           "id": "1.2",
           "cate_name": "Ducts & Accessories",
-          "image": "assets/product-images/ducts_accessories.png",
+          "image": "assets/product-images/ducts_accessories.jpg",
           "description": "Durable ducts and accessories for efficient air distribution and airflow control in HVAC systems.",
+           "slug": "ducts-accessories",
           "productList": []
         },
         {
@@ -139,21 +141,21 @@
         {
           "id": "1.4",
           "cate_name": "Air Terminals",
-          "image": "assets/product-images/air_terminals.png",
+          "image": "assets/product-images/air_terminals.jpeg",
           "description": "Air terminals that control and distribute conditioned air efficiently in HVAC systems.",
           "productList": []
         },
         {
           "id": "1.5",
           "cate_name": "Louvers",
-          "image": "assets/product-images/louvers.png",
+          "image": "assets/product-images/louvers.jpg",
           "description": "Louvers designed to allow airflow while preventing rain, debris, and unwanted elements in HVAC systems.",
           "productList": []
         },
         {
           "id": "1.6",
           "cate_name": "Air Outlets (GRD)",
-          "image": "assets/product-images/air_outlets.png",
+          "image": "assets/product-images/air_outlets.jpeg",
           "description": "Air outlets (grilles, registers, diffusers) that distribute and direct airflow effectively in HVAC spaces.",
           "productList": []
         },
@@ -174,7 +176,7 @@
         {
           "id": "1.9",
           "cate_name": "HVAC insulation and Accessories",
-          "image": "assets/product-images/HVAC_insulation.webp",
+          "image": "assets/product-images/HVAC_insulation.png",
           "description": "Insulation and accessories that improve energy efficiency, reduce noise, and protect HVAC systems.",
           "productList": []
         },

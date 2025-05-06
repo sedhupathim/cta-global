@@ -53,7 +53,7 @@ export class HeaderComponent {
   
   openProduct(category = null) {
     console.log(category);
-    this.showDropdown = false; // Close the dropdown after selection
+    this.showDropdown = false;
     if (category && category['slug']) {
       this.router.navigate([ `/products/category/${category['slug']}`]);
     } 
@@ -64,9 +64,9 @@ export class HeaderComponent {
 
   openSubProducts(categorySlug: string, subCategory: any){
    console.log(categorySlug, subCategory)
-   this.showDropdown = false; // Close the dropdown after selection
-   if (subCategory) {
-     this.router.navigate([ `/products/category/${categorySlug}`]);
+   this.showDropdown = false;
+   if (categorySlug && subCategory) {
+     this.router.navigate([ `/products/category/${categorySlug}/${subCategory['slug']}`]);
    } 
   }
 

@@ -10,6 +10,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { ServiceComponent } from './service/service.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ChildProductsListComponent } from './child-products-list/child-products-list.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     ContactusComponent,
     ServiceComponent,
     ProductListComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ChildProductsListComponent
   ],
   imports: [
     BrowserModule,

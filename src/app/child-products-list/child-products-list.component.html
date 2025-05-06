@@ -1,0 +1,35 @@
+<section class="product-section">
+    <div class="container">
+        <div class="product-bread-crumb">
+            <span class="parent-crumb">Home</span> / <span class="child-crumb">{{selectedCategory?.cate_name}}</span> / <span class="child-crumb">{{selectedChildCategory?.cate_name}}</span>
+        </div>
+        <div class="product-header">
+           <h2>{{selectedChildCategory?.cate_name}}</h2>
+        </div>
+        <div class="product-desc">
+           <p>{{selectedChildCategory?.description}}</p>
+        </div>
+        <div class="product-btns" *ngIf="false">
+          <a class="btn-product">All</a>
+          <a class="btn-product">PRE-INSULATED DUCT</a>
+        </div>
+        <div class="product-container">
+            <div class="row">
+                <div class="col-md-3" *ngFor = "let item of selectedChildCategory?.productList">
+                    {{item?.cate_name}}
+                    <!-- <div class="product-box">
+                        <div class="product-image">
+                            <img [src]="item?.image" alt="Product Image">
+                        </div>
+                        <div class="product-title">
+                            <h5>{{item?.cate_name}}</h5>
+                         </div>
+                         <span class="product-details">
+                             <p>{{item?.description}}</p>
+                         </span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
