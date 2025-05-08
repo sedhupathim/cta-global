@@ -32,5 +32,9 @@ export class ProductListComponent {
         );
       });
   }
+  
+  goHome() {
+    this.router.navigate(['/']);
+  }
 
 }

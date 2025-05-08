@@ -46,6 +46,15 @@ export class ChildProductsListComponent {
         });
       });
     }
+
+  // Function to navigate to the product details page
+  goToMainCategory() {  
+    this.router.navigate([ `/products/category/${this.selectedCategory['slug']}`]);
+  }
+
+  goHome() {
+    this.router.navigate(['/']);
+  }
     
   
 

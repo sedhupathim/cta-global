@@ -50,7 +50,7 @@
                             {{ subCategory.cate_name }}
                           </span>
                         </div>
-                        <div class="col-md-4 d-flex align-items-center product-item flex-column">
+                        <div class="col-md-4 d-flex align-items-center product-item flex-column" *ngIf="hoveredCategory.productList.length > 9">
                           <span class="drop-desc view-all" (click)="openProduct()">View All Products
                         </span>
                       </div>

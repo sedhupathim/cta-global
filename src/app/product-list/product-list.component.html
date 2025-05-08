@@ -1,7 +1,7 @@
 <section class="product-section">
     <div class="container">
         <div class="product-bread-crumb">
-            <span class="parent-crumb">Home</span> / <span class="child-crumb">{{selectedCategory?.cate_name}}</span>
+            <span class="parent-crumb" (click)="goHome()">Home</span> / <span class="child-crumb">{{selectedCategory?.cate_name}}</span>
         </div>
         <div class="product-header">
            <h2>{{selectedCategory?.cate_name}}</h2>
