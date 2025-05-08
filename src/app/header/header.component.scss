@@ -125,17 +125,16 @@ nav {
       }
       .view-all {
         color: #000;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 600;
         line-height: 26px;
-      }
-      .view-all {
-        color: #000;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 26px;
+        min-height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: underline;
+        
       }
     }
   }
@@ -171,4 +170,18 @@ nav {
     .menu-icon {
       margin-left: 20px;
       cursor: pointer;
-    }
+      &.with-bg{
+        background-color: #36B864;
+        padding: 8px;
+        border-radius: 50%;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        width: 32px;
+        svg{
+          width: 19px;
+          height: 19px;
+        }
+}
+      }
+    
