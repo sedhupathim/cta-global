@@ -128,9 +128,163 @@
           "cate_name": "Ducts & Accessories",
           "image": "assets/product-images/ducts_accessories.jpg",
           "description": "Durable ducts and accessories for efficient air distribution and airflow control in HVAC systems.",
-           "slug": "ducts-accessories",
-          "productList": []
+          "slug": "ducts-accessories",
+          "productList": [
+            {
+              "id": "1.2.1",
+              "cate_name": "Damper",
+              "image": "assets/product-images/damper.jpg",
+              "description": "High-performance dampers for precise airflow regulation and fire safety",
+              "productList": [
+                {
+                  "id": "1.2.1.1",
+                  "product_name": "Fire/Smoke Damper",
+                  "image": "assets/product-images/fire_smoke_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.2",
+                  "product_name": "Motorized Fire/Smoke Dampers",
+                  "image": "assets/product-images/motorized_fire_smoke_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.3",
+                  "product_name": "Smoke Damper",
+                  "image": "assets/product-images/fire_smoke_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.4",
+                  "product_name": "Fire Dampers",
+                  "image": "assets/product-images/fire_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.5",
+                  "product_name": "Control and Isolation dampers",
+                  "image": "assets/product-images/control_isolation_dampers.png",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.6",
+                  "product_name": "Tunnel Fire/Ventilation Dampers",
+                  "image": "assets/product-images/tunnel_fire_ventilation_dampers.png",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.7",
+                  "product_name": "Air Control Dampers",
+                  "image": "assets/product-images/air_control_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.8",
+                  "product_name": "Volume Control Dampers",
+                  "image": "assets/product-images/volume_control_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.9",
+                  "product_name": "Round Volume Dampers",
+                  "image": "assets/product-images/round_control.webp",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.10",
+                  "product_name": "Backdraft & Pressure Relief Dampers",
+                  "image": "assets/product-images/backdraft_pressure_relief_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.11",
+                  "product_name": "Ceiling Radiation Dampers",
+                  "image": "assets/product-images/ceiling_radiation_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.12",
+                  "product_name": "Corridor Dampers",
+                  "image": "assets/product-images/corridor_dampers.png",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.13",
+                  "product_name": "Blast Suppression Damper",
+                  "image": "assets/product-images/blast_suppression_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.14",
+                  "product_name": "Bubble – Tight Isolation Damper",
+                  "image": "assets/product-images/bubble_tight_isolation_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.15",
+                  "product_name": "Fiberglass dampers",
+                  "image": "assets/product-images/fiberglass_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.16",
+                  "product_name": "Constant air regulator",
+                  "image": "assets/product-images/constant_air_regulator.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.17",
+                  "product_name": "Self-Balancing Damper",
+                  "image": "assets/product-images/self_balancing_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.18",
+                  "product_name": "Access Doors",
+                  "image": "assets/product-images/access_door.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.19",
+                  "product_name": "Plenum Box",
+                  "image": "assets/product-images/plenum_box.jpeg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.20",
+                  "product_name": "Aluminum Filter",
+                  "image": "assets/product-images/aluminum_filter.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.21",
+                  "product_name": "Constant Air Volume Dampers",
+                  "image": "assets/product-images/constant_air_volume_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.22",
+                  "product_name": "Rectangular Silencer",
+                  "image": "assets/product-images/rectangular_silencer.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.23",
+                  "product_name": "Round Sound Attenuator",
+                  "image": "assets/product-images/round_sound_attenuator.webp",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.24",
+                  "product_name": "Cross Talk Silencer",
+                  "image": "assets/product-images/cross_talk_silencer.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                }
+              ]
+            }
+          ]
         },
+        
         {
           "id": "1.3",
           "cate_name": "Sound Attenuators",
