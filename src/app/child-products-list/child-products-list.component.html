@@ -1,6 +1,6 @@
 <section class="product-section">
     <div class="container">
-        <div class="product-bread-crumb">
+        <div class="product-bread-crumb cursor">
             <span class="parent-crumb"(click)="goHome()">Home</span> / <span class="child-crumb"(click)="goToMainCategory()">{{selectedCategory?.cate_name}}</span> / <span class="child-crumb">{{selectedChildCategory?.cate_name}}</span>
         </div>
         <ng-container *ngFor = "let item of selectedChildCategory?.productList">

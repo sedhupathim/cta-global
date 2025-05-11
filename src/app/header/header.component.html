@@ -43,7 +43,7 @@
                   <div class="product-dropdown" *ngIf="hoveredCategory">
                     <div class="product-grid">
                       <div class="row">
-                        <div class="col-md-4 d-flex align-items-center product-item flex-column"
+                        <div class="col-md-4 d-flex align-items-center product-item flex-column cursor" 
                           *ngFor="let subCategory of hoveredCategory.productList.slice(0,9)" (click)="openSubProducts(hoveredCategory?.slug,subCategory)">
                           <img [src]="subCategory.image" alt="Product Image" class="product-image">
                           <span class="drop-desc">
