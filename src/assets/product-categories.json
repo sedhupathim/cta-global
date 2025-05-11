@@ -4,53 +4,55 @@
       "cate_name": "Mechanical",
       "image": "assets/product-images/mechanical.png",
       "description": "Mechanical systems including air side and chilled water systems",
+      "slug": "mechanical",
       "productList": [
         {
           "id": "1.1",
           "cate_name": "Air Ducts",
-          "image": "assets/product-images/air_ducts.png",
+          "image": "assets/product-images/air_ducts.jpg",
           "description": "Air distribution and ventilation components",
+          "slug": "air-ducts",
           "productList": [
             {
               "id": "1.1.1",
-              "cate_name": "Phenolic and Pre-Insulated Duct board and accessories – UL listed",
+              "cate_name": "Phenolic and Pre-Insulated Duct board and accessories",
               "image": "assets/product-images/air_ducts.png",
               "description": "Air distribution and ventilation components",
               "productList": [
                 {
                   "id": "1.1.1.1",
                   "product_name": "Pre-Clad PIR",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/preclad.png",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.1.2",
                   "product_name": "Pre-Clad Phenolic",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/preclad_phenolic.png",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.1.3",
                   "product_name": "PalDuct Eco",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/palduct_eco.jpeg",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.1.4",
                   "product_name": "PalDuct PIR",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/palduct_pir.png",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.1.5",
                   "product_name": "PalDuct Phenolic",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/preclad_phenolic.png",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.1.6",
                   "product_name": "PalDuct Panel Accessories, Adhesive Material & Components",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/palduct _panel _acc.jpg",
                   "description": "Air distribution and ventilation components"
                 }
               ]
@@ -64,13 +66,13 @@
                 {
                   "id": "1.1.2.1",
                   "product_name": "Non-Coated Fire Rated Duct",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/non_coated_fire_duct.jpg",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.2.2",
                   "product_name": "Fire coated Fire rated Ducts",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/fire_coated_fire_rated_ducts.png",
                   "description": "Air distribution and ventilation components"
                 }
               ]
@@ -84,37 +86,37 @@
                 {
                   "id": "1.1.3.1",
                   "product_name": "Spiral Duct and accessories",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/spiral_duct_accessories.jpg",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.3.2",
                   "product_name": "Rectangular Ducts",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/rectangular_duct.jpg",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.3.3",
                   "product_name": "Stainless steel Ducts",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/stainless_steel_ducts.png",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.3.4",
                   "product_name": "Aluminum Ducts",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/aluminum_ducts.jpg",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.3.5",
                   "product_name": "Galvanized Iron Ducts",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/galvanized_iron_ducts.webp",
                   "description": "Air distribution and ventilation components"
                 },
                 {
                   "id": "1.1.3.6",
                   "product_name": "Flexible air ducts",
-                  "image": "assets/product-images/air_ducts.png",
+                  "image": "assets/product-images/flexible_air_ducts.jpg",
                   "description": "Air distribution and ventilation components"
                 }
               ]
@@ -124,57 +126,212 @@
         {
           "id": "1.2",
           "cate_name": "Ducts & Accessories",
-          "image": "assets/product-images/ducts_accessories.png",
-          "description": "Chilled and hot water system equipment",
-          "productList": []
+          "image": "assets/product-images/ducts_accessories.jpg",
+          "description": "Durable ducts and accessories for efficient air distribution and airflow control in HVAC systems.",
+          "slug": "ducts-accessories",
+          "productList": [
+            {
+              "id": "1.2.1",
+              "cate_name": "Damper",
+              "image": "assets/product-images/damper.jpg",
+              "description": "High-performance dampers for precise airflow regulation and fire safety",
+              "productList": [
+                {
+                  "id": "1.2.1.1",
+                  "product_name": "Fire/Smoke Damper",
+                  "image": "assets/product-images/fire_smoke_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.2",
+                  "product_name": "Motorized Fire/Smoke Dampers",
+                  "image": "assets/product-images/motorized_fire_smoke_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.3",
+                  "product_name": "Smoke Damper",
+                  "image": "assets/product-images/fire_smoke_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.4",
+                  "product_name": "Fire Dampers",
+                  "image": "assets/product-images/fire_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.5",
+                  "product_name": "Control and Isolation dampers",
+                  "image": "assets/product-images/control_isolation_dampers.png",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.6",
+                  "product_name": "Tunnel Fire/Ventilation Dampers",
+                  "image": "assets/product-images/tunnel_fire_ventilation_dampers.png",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.7",
+                  "product_name": "Air Control Dampers",
+                  "image": "assets/product-images/air_control_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.8",
+                  "product_name": "Volume Control Dampers",
+                  "image": "assets/product-images/volume_control_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.9",
+                  "product_name": "Round Volume Dampers",
+                  "image": "assets/product-images/round_control.webp",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.10",
+                  "product_name": "Backdraft & Pressure Relief Dampers",
+                  "image": "assets/product-images/backdraft_pressure_relief_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.11",
+                  "product_name": "Ceiling Radiation Dampers",
+                  "image": "assets/product-images/ceiling_radiation_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.12",
+                  "product_name": "Corridor Dampers",
+                  "image": "assets/product-images/corridor_dampers.png",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.13",
+                  "product_name": "Blast Suppression Damper",
+                  "image": "assets/product-images/blast_suppression_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.14",
+                  "product_name": "Bubble – Tight Isolation Damper",
+                  "image": "assets/product-images/bubble_tight_isolation_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.15",
+                  "product_name": "Fiberglass dampers",
+                  "image": "assets/product-images/fiberglass_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.16",
+                  "product_name": "Constant air regulator",
+                  "image": "assets/product-images/constant_air_regulator.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.17",
+                  "product_name": "Self-Balancing Damper",
+                  "image": "assets/product-images/self_balancing_damper.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.18",
+                  "product_name": "Access Doors",
+                  "image": "assets/product-images/access_door.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.19",
+                  "product_name": "Plenum Box",
+                  "image": "assets/product-images/plenum_box.jpeg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.20",
+                  "product_name": "Aluminum Filter",
+                  "image": "assets/product-images/aluminum_filter.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.21",
+                  "product_name": "Constant Air Volume Dampers",
+                  "image": "assets/product-images/constant_air_volume_dampers.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.22",
+                  "product_name": "Rectangular Silencer",
+                  "image": "assets/product-images/rectangular_silencer.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.23",
+                  "product_name": "Round Sound Attenuator",
+                  "image": "assets/product-images/round_sound_attenuator.webp",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                },
+                {
+                  "id": "1.2.1.24",
+                  "product_name": "Cross Talk Silencer",
+                  "image": "assets/product-images/cross_talk_silencer.jpg",
+                  "description": "Efficient air control and fire safety in HVAC systems"
+                }
+              ]
+            }
+          ]
         },
+        
         {
           "id": "1.3",
           "cate_name": "Sound Attenuators",
-          "image": "assets/product-images/sound_atten.png",
-          "description": "Air distribution and ventilation components",
+          "image": "assets/product-images/sound_atten.jpg",
+          "description": "Sound attenuators designed to reduce noise and ensure quiet airflow in HVAC duct systems.",
           "productList": []
         },
         {
           "id": "1.4",
           "cate_name": "Air Terminals",
-          "image": "assets/product-images/air_terminals.png",
-          "description": "Chilled and hot water system equipment",
+          "image": "assets/product-images/air_terminals.jpeg",
+          "description": "Air terminals that control and distribute conditioned air efficiently in HVAC systems.",
           "productList": []
         },
         {
           "id": "1.5",
           "cate_name": "Louvers",
-          "image": "assets/product-images/louvers.png",
-          "description": "Air distribution and ventilation components",
+          "image": "assets/product-images/louvers.jpg",
+          "description": "Louvers designed to allow airflow while preventing rain, debris, and unwanted elements in HVAC systems.",
           "productList": []
         },
         {
           "id": "1.6",
           "cate_name": "Air Outlets (GRD)",
-          "image": "assets/product-images/air_outlets.png",
-          "description": "Chilled and hot water system equipment",
+          "image": "assets/product-images/air_outlets.jpeg",
+          "description": "Air outlets (grilles, registers, diffusers) that distribute and direct airflow effectively in HVAC spaces.",
           "productList": []
         },
         {
           "id": "1.7",
           "cate_name": "Air Curtains",
-          "image": "assets/product-images/air_curtains.png",
-          "description": "Air distribution and ventilation components",
+          "image": "assets/product-images/air_curtains.webp",
+          "description": "Air curtains that create an invisible barrier to maintain indoor air quality and save energy.",
           "productList": []
         },
         {
           "id": "1.8",
           "cate_name": "Air Side Accessories",
           "image": "assets/product-images/air_side_accessories.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "Air side accessories that enhance airflow control, distribution, and system efficiency in HVAC applications.",
           "productList": []
         },
         {
           "id": "1.9",
           "cate_name": "HVAC insulation and Accessories",
           "image": "assets/product-images/HVAC_insulation.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "Insulation and accessories that improve energy efficiency, reduce noise, and protect HVAC systems.",
           "productList": []
         },
         {
@@ -188,21 +345,21 @@
           "id": "1.11",
           "cate_name": "Equipment’s",
           "image": "assets/product-images/equipments.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "High-performance HVAC equipment designed for reliable, energy-efficient heating, cooling, and ventilation.",
           "productList": []
         },
         {
           "id": "1.12",
           "cate_name": "Controls",
           "image": "assets/product-images/controls.png",
-          "description": "Chilled and hot water system equipment",
+          "description": "Advanced HVAC controls that optimize system performance, enhance energy efficiency, and provide seamless operation.",
           "productList": []
         },
         {
           "id": "1.13",
           "cate_name": "Critical Environment & Displacement Ventilation - Intertek Certified",
-          "image": "assets/product-images/crit_env_displacement_ventilation.png",
-          "description": "Chilled and hot water system equipment",
+          "image": "assets/product-images/crit_env_displacement_ventilation.jpeg",
+          "description": "Intertek certified critical environment and displacement ventilation systems ensuring optimal air quality and precise control in sensitive areas.",
           "productList": []
         }
       ]
@@ -210,8 +367,9 @@
     {
       "id": "2",
       "cate_name": "Electrical",
-      "image": "assets/product-images/electrical.png",
+      "image": "assets/product-images/electricalnew.png",
       "description": "Electrical systems including lighting, power and control",
+      "slug": "electrical",
       "productList": [
         {
           "id": "2.1",
@@ -269,6 +427,7 @@
       "cate_name": "Plumbing",
       "image": "assets/product-images/plumbing.png",
       "description": "Plumbing systems including water and drainage",
+      "slug": "plumbing",
       "productList": [
         { "id": "3.1", "cate_name": "Domestic Water Pipes and Fittings", "image": "assets/product-images/domestic_pipes.png", "description": "", "productList": [] },
         { "id": "3.2", "cate_name": "Drainage Pipes and Fittings", "image": "assets/product-images/drainage_pipes.png", "description": "", "productList": [] },
@@ -281,6 +440,7 @@
       "cate_name": "Fire Protection",
       "image": "assets/product-images/fire_protection.png",
       "description": "Fire safety and protection systems",
+      "slug": "fire-protection",
       "productList": []
     },
     {
@@ -288,13 +448,15 @@
       "cate_name": "Architectural",
       "image": "assets/product-images/architectural.png",
       "description": "Architectural components and designs",
+      "slug": "architectural",
       "productList": []
     },
     {
       "id": "6",
       "cate_name": "Structural",
-      "image": "assets/product-images/structural.png",
+      "image": "assets/product-images/structuralnew.png",
       "description": "Structural components and framework",
+      "slug": "structural",
       "productList": []
     }
   ]

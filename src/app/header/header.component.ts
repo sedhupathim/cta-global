@@ -51,9 +51,23 @@ export class HeaderComponent {
       window.open(url, "_blank");
   }
   
-  openProduct(){
-   this.router.navigate(["/products"])
+  openProduct(category = null) {
+    console.log(category);
+    this.showDropdown = false;
+    if (category && category['slug']) {
+      this.router.navigate([ `/products/category/${category['slug']}`]);
+    } 
+    else {
+      this.router.navigate([ `/products/category/mechanical`]);
+    }
   }
 
+  openSubProducts(categorySlug: string, subCategory: any){
+   console.log(categorySlug, subCategory)
+   this.showDropdown = false;
+   if (categorySlug && subCategory) {
+     this.router.navigate([ `/products/category/${categorySlug}/${subCategory['slug']}`]);
+   } 
+  }
 
 }

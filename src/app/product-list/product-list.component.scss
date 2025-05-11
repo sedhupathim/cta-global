@@ -30,7 +30,7 @@
         }
     }
     .product-desc {
-        padding-bottom: 90px;
+        padding-bottom: 20px;
 
         p {
             color: #000;
@@ -40,34 +40,34 @@
         }
 
     }
-    .product-btns {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        padding-bottom: 22px;
-        border-bottom: 1px solid #BFBFBF;
-        .btn-product {
-            height: 45px;
-            padding: 14px 45px 14px 45px;
-            border-radius: 30px;
-            border: 1px solid #000;
-            background: #FFF;
-            color: #000;
-            text-align: center;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 19.04px;
-            letter-spacing: 1.25px;
-            text-transform: uppercase;
-            text-decoration: none;
-            &:active {
-                background: #F6F6F6; 
-                border: 1px solid transparent;
-            }
-        }
-    }
+    // .product-btns {
+    //     display: flex;
+    //     align-items: center;
+    //     gap: 6px;
+    //     padding-bottom: 22px;
+    //     border-bottom: 1px solid #BFBFBF;
+    //     .btn-product {
+    //         height: 45px;
+    //         padding: 14px 45px 14px 45px;
+    //         border-radius: 30px;
+    //         border: 1px solid #000;
+    //         background: #FFF;
+    //         color: #000;
+    //         text-align: center;
+    //         font-size: 14px;
+    //         font-weight: 400;
+    //         line-height: 19.04px;
+    //         letter-spacing: 1.25px;
+    //         text-transform: uppercase;
+    //         text-decoration: none;
+    //         &:active {
+    //             background: #F6F6F6; 
+    //             border: 1px solid transparent;
+    //         }
+    //     }
+    // }
     .product-container {
-        padding-top: 55px;
+        padding-top: 15px;
 
             .product-box {
                width: auto;
@@ -78,15 +78,26 @@
 
              .product-image {
                  width: 100%;
-                 height: 350px;
+                 height: 210px;
                  padding-bottom: 18px;
+                 position: relative;
 
                  img {
                     object-fit: cover;
                     width: 100%;
                     height: 100%;
                     border-radius: 7.472px;
+                    background: #FAFAFA;
+                    padding: 15px;
+                    box-shadow: 0px 1px 5px -3px #000;
                  }
+
+                    .product-share {
+                        position: absolute;
+                        bottom: 38px;
+                        right: 20px;
+                        cursor: pointer;
+                    }
              }
 
              .product-title {

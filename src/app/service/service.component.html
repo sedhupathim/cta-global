@@ -1,16 +1,8 @@
-<swiper-container #swiper   navigation="true"
-pagination="false"
-slides-per-view="3"
-slides-per-group="3"
-space-between="20"
-loop="false"
-speed="500"
-[breakpoints]="breakpoints"
->
-  <swiper-slide *ngFor="let category of categories">
+<div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-1" *ngFor="let category of categories">
     <div class="swipe-container">
         <div class="swipe-card">
-            <img class="swiperImage" src="{{category?.image}}" [alt]="category?.cate_name">
+            <img class="swiperImage" src="{{category?.image}}" [alt]="category?.image">
             <h4 class="swipe-header">
                 {{category?.cate_name}}
             </h4>
@@ -19,5 +11,5 @@ speed="500"
             </p>
         </div>
     </div>
-  </swiper-slide>
-</swiper-container>
+    </div>
+    </div>
