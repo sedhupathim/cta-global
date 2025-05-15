@@ -255,56 +255,157 @@
                   "product_name": "Aluminum Filter",
                   "image": "assets/product-images/aluminum_filter.jpg",
                   "description": "Efficient air control and fire safety in HVAC systems"
-                },
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "id": "1.3",
+          "cate_name": "Sound Attenuators",
+          "image": "assets/product-images/sound_atten.jpg",
+          "description": "Sound attenuators designed to reduce noise and ensure quiet airflow in HVAC duct systems.",
+          "slug": "sound-attenuators",
+          "productList": [
+            {
+              "id": "1.3.1",
+              "cate_name": "Sound Attenuators",
+              "image": "assets/product-images/damper.jpg",
+              "description": "",
+              "productList": [
                 {
-                  "id": "1.2.1.21",
+                  "id": "1.3.1.1",
                   "product_name": "Constant Air Volume Dampers",
                   "image": "assets/product-images/constant_air_volume_dampers.jpg",
                   "description": "Efficient air control and fire safety in HVAC systems"
                 },
                 {
-                  "id": "1.2.1.22",
+                  "id": "1.3.1.2",
                   "product_name": "Rectangular Silencer",
                   "image": "assets/product-images/rectangular_silencer.jpg",
                   "description": "Efficient air control and fire safety in HVAC systems"
                 },
                 {
-                  "id": "1.2.1.23",
+                  "id": "1.3.1.3",
                   "product_name": "Round Sound Attenuator",
                   "image": "assets/product-images/round_sound_attenuator.webp",
                   "description": "Efficient air control and fire safety in HVAC systems"
                 },
                 {
-                  "id": "1.2.1.24",
+                  "id": "1.3.1.4",
                   "product_name": "Cross Talk Silencer",
                   "image": "assets/product-images/cross_talk_silencer.jpg",
                   "description": "Efficient air control and fire safety in HVAC systems"
                 }
               ]
             }
-          ]
-        },
-        
-        {
-          "id": "1.3",
-          "cate_name": "Sound Attenuators",
-          "image": "assets/product-images/sound_atten.jpg",
-          "description": "Sound attenuators designed to reduce noise and ensure quiet airflow in HVAC duct systems.",
-          "productList": []
-        },
+          ]       
+         },
         {
           "id": "1.4",
           "cate_name": "Air Terminals",
           "image": "assets/product-images/air_terminals.jpeg",
+          "slug": "air-terminals",
           "description": "Air terminals that control and distribute conditioned air efficiently in HVAC systems.",
-          "productList": []
+          "productList": [
+            {
+            "id": "1.4.1",
+            "cate_name": "VAV and CAV",
+            "image": "assets/product-images/vav_cav.jpg",
+            "description": "Variable and constant air volume systems designed for efficient airflow control and temperature regulation.",
+            "productList": [
+                {
+                  "id": "1.4.1.1",
+                  "product_name": "Pressure Independent Type",
+                  "image": "assets/product-images/pressure_independent_type.jpg",
+                  "description": "Maintains constant airflow regardless of inlet pressure variations for precise temperature control."
+                },
+                {
+                  "id": "1.4.1.2",
+                  "product_name": "Bypass Type",
+                  "image": "assets/product-images/bypass_type.jpeg",
+                  "description": "Redirects excess air through a bypass duct for maintaining balanced pressure in HVAC zones."
+                },
+                {
+                  "id": "1.4.1.3",
+                  "product_name": "Single – Duct Terminals",
+                  "image": "assets/product-images/single_duct_terminals.jpg",
+                  "description": "Delivers accurate volume control for single-zone HVAC applications with minimal noise."
+                },
+                {
+                  "id": "1.4.1.4",
+                  "product_name": "Fan Powered Terminals",
+                  "image": "assets/product-images/fan_powered_terminals.jpeg",
+                  "description": "Enhances air circulation and zone control by integrating a fan within the terminal unit."
+                }
+              ]
+            }
+           ]
         },
         {
           "id": "1.5",
           "cate_name": "Louvers",
           "image": "assets/product-images/louvers.jpg",
           "description": "Louvers designed to allow airflow while preventing rain, debris, and unwanted elements in HVAC systems.",
-          "productList": []
+          "slug" : "louvers",
+          "productList": [
+            {
+              "id": "1.5.1",
+              "cate_name": "Louvers",
+              "image": "assets/product-images/louvers.jpg",
+              "description": "High-performance louvers for ventilation, weather protection, and airflow regulation in HVAC systems.",
+              "productList": [
+                {
+                  "id": "1.5.1.1",
+                  "product_name": "Weather Proof Louvers",
+                  "image": "assets/product-images/weather_proof.jpeg",
+                  "description": "Designed to prevent rainwater penetration while allowing airflow."
+                },
+                {
+                  "id": "1.5.1.2",
+                  "product_name": "Sand Trap Louvers",
+                  "image": "assets/product-images/sand_trap.jpeg",
+                  "description": "Effectively filters sand and dust in desert climates."
+                },
+                {
+                  "id": "1.5.1.3",
+                  "product_name": "Drainable Louvers",
+                  "image": "assets/product-images/drainable.jpeg",
+                  "description": "Includes drainage channels to direct water away and enhance moisture protection."
+                },
+                {
+                  "id": "1.5.1.4",
+                  "product_name": "Acoustic Louvers",
+                  "image": "assets/product-images/acoustic.jpeg",
+                  "description": "Reduces noise transmission while allowing ventilation."
+                },
+                {
+                  "id": "1.5.1.5",
+                  "product_name": "Fresh Air Louvers",
+                  "image": "assets/product-images/fresh_air.jpeg",
+                  "description": "Facilitates intake of outside air for better ventilation."
+                },
+                {
+                  "id": "1.5.1.6",
+                  "product_name": "Hurricane and Wind – Driven Louver",
+                  "image": "assets/product-images/wind.png",
+                  "description": "Engineered for extreme weather, resists wind and rain intrusion."
+                },
+                {
+                  "id": "1.5.1.7",
+                  "product_name": "Penthouse Louvers",
+                  "image": "assets/product-images/penthouse.jpeg",
+                  "description": "Mounted on rooftops for exhaust or intake; ideal for large buildings."
+                },
+                {
+                  "id": "1.5.1.8",
+                  "product_name": "Stationary Louvers",
+                  "image": "assets/product-images/stationary_louver.jpg",
+                  "description": "Simple fixed blades for continuous airflow applications."
+                }
+              ]
+            }
+            ]
         },
         {
           "id": "1.6",
