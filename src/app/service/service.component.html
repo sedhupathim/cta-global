@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-md-4 col-sm-6 col-xs-1" *ngFor="let category of categories">
-    <div class="swipe-container">
+    <div class="swipe-container cursor" (click)="goToServiceCategory(category?.slug)">
         <div class="swipe-card">
             <img class="swiperImage" src="{{category?.image}}" [alt]="category?.image">
             <h4 class="swipe-header">

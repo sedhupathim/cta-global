@@ -22,12 +22,9 @@ export class ProductListComponent {
     this.http.get<any[]>('assets/product-categories.json')
       .subscribe((data: any) => {
         this.categories = data;
-        console.log(this.categories)
         this.ac_route.params.subscribe((params) => {  
         this.category_slug = params['category_slug'];
-        console.log(this.category_slug);
         this.selectedCategory = this.categories.find((category: any) => category.slug === this.category_slug) || {};
-        console.log(this.selectedCategory);
         }
         );
       });
@@ -36,5 +33,10 @@ export class ProductListComponent {
   goHome() {
     this.router.navigate(['/']);
   }
+
+  openProducts(slug:any){
+  this.router.navigate([ `/products/category/${this.category_slug}/${slug}`]);
+  }
+
 
 }

@@ -16,8 +16,8 @@ export class HeaderComponent {
 
   navItems = [
     { name: 'Home', label: 'Home' },
+    { name: 'AboutUs', label: 'About Us'},
     { name: 'Service', label: 'Service' },
-    { name: 'AboutUs', label: 'About Us' },
     { name: 'ContactUs', label: 'Contact Us' }
   ];
 
@@ -28,14 +28,18 @@ export class HeaderComponent {
 
   setActiveTab(tabName: string) {
     this.activeTab = tabName;
+    if(this.activeTab === 'AboutUs'){
+      this.router.navigate(['/about-us'])
+    }
+    else if(this.activeTab === 'Home'){
+    this.router.navigate(['/'])
+    }
   }
 
   ngOnInit() {
-    
     this.http.get<any[]>('assets/product-categories.json')
       .subscribe(data => {
         this.categories = data;
-        console.log(this.categories)
       });
   }
 
@@ -52,7 +56,7 @@ export class HeaderComponent {
   }
   
   openProduct(category = null) {
-    console.log(category);
+    this.activeTab = "Service";
     this.showDropdown = false;
     if (category && category['slug']) {
       this.router.navigate([ `/products/category/${category['slug']}`]);
@@ -63,7 +67,6 @@ export class HeaderComponent {
   }
 
   openSubProducts(categorySlug: string, subCategory: any){
-   console.log(categorySlug, subCategory)
    this.showDropdown = false;
    if (categorySlug && subCategory) {
      this.router.navigate([ `/products/category/${categorySlug}/${subCategory['slug']}`]);
