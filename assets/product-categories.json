@@ -255,112 +255,764 @@
                   "product_name": "Aluminum Filter",
                   "image": "assets/product-images/aluminum_filter.jpg",
                   "description": "Efficient air control and fire safety in HVAC systems"
-                },
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "id": "1.3",
+          "cate_name": "Sound Attenuators",
+          "image": "assets/product-images/sound_atten.jpg",
+          "description": "Sound attenuators designed to reduce noise and ensure quiet airflow in HVAC duct systems.",
+          "slug": "sound-attenuators",
+          "productList": [
+            {
+              "id": "1.3.1",
+              "cate_name": "Sound Attenuators",
+              "image": "assets/product-images/damper.jpg",
+              "description": "",
+              "productList": [
                 {
-                  "id": "1.2.1.21",
+                  "id": "1.3.1.1",
                   "product_name": "Constant Air Volume Dampers",
                   "image": "assets/product-images/constant_air_volume_dampers.jpg",
                   "description": "Efficient air control and fire safety in HVAC systems"
                 },
                 {
-                  "id": "1.2.1.22",
+                  "id": "1.3.1.2",
                   "product_name": "Rectangular Silencer",
                   "image": "assets/product-images/rectangular_silencer.jpg",
                   "description": "Efficient air control and fire safety in HVAC systems"
                 },
                 {
-                  "id": "1.2.1.23",
+                  "id": "1.3.1.3",
                   "product_name": "Round Sound Attenuator",
                   "image": "assets/product-images/round_sound_attenuator.webp",
                   "description": "Efficient air control and fire safety in HVAC systems"
                 },
                 {
-                  "id": "1.2.1.24",
+                  "id": "1.3.1.4",
                   "product_name": "Cross Talk Silencer",
                   "image": "assets/product-images/cross_talk_silencer.jpg",
                   "description": "Efficient air control and fire safety in HVAC systems"
                 }
               ]
             }
-          ]
-        },
-        
-        {
-          "id": "1.3",
-          "cate_name": "Sound Attenuators",
-          "image": "assets/product-images/sound_atten.jpg",
-          "description": "Sound attenuators designed to reduce noise and ensure quiet airflow in HVAC duct systems.",
-          "productList": []
-        },
+          ]       
+         },
         {
           "id": "1.4",
           "cate_name": "Air Terminals",
           "image": "assets/product-images/air_terminals.jpeg",
+          "slug": "air-terminals",
           "description": "Air terminals that control and distribute conditioned air efficiently in HVAC systems.",
-          "productList": []
+          "productList": [
+            {
+            "id": "1.4.1",
+            "cate_name": "VAV and CAV",
+            "image": "assets/product-images/vav_cav.jpg",
+            "description": "Variable and constant air volume systems designed for efficient airflow control and temperature regulation.",
+            "productList": [
+                {
+                  "id": "1.4.1.1",
+                  "product_name": "Pressure Independent Type",
+                  "image": "assets/product-images/pressure_independent_type.jpg",
+                  "description": "Maintains constant airflow regardless of inlet pressure variations for precise temperature control."
+                },
+                {
+                  "id": "1.4.1.2",
+                  "product_name": "Bypass Type",
+                  "image": "assets/product-images/bypass_type.jpeg",
+                  "description": "Redirects excess air through a bypass duct for maintaining balanced pressure in HVAC zones."
+                },
+                {
+                  "id": "1.4.1.3",
+                  "product_name": "Single – Duct Terminals",
+                  "image": "assets/product-images/single_duct_terminals.jpg",
+                  "description": "Delivers accurate volume control for single-zone HVAC applications with minimal noise."
+                },
+                {
+                  "id": "1.4.1.4",
+                  "product_name": "Fan Powered Terminals",
+                  "image": "assets/product-images/fan_powered_terminals.jpeg",
+                  "description": "Enhances air circulation and zone control by integrating a fan within the terminal unit."
+                }
+              ]
+            }
+           ]
         },
         {
           "id": "1.5",
           "cate_name": "Louvers",
           "image": "assets/product-images/louvers.jpg",
           "description": "Louvers designed to allow airflow while preventing rain, debris, and unwanted elements in HVAC systems.",
-          "productList": []
+          "slug" : "louvers",
+          "productList": [
+            {
+              "id": "1.5.1",
+              "cate_name": "Louvers",
+              "image": "assets/product-images/louvers.jpg",
+              "description": "High-performance louvers for ventilation, weather protection, and airflow regulation in HVAC systems.",
+              "productList": [
+                {
+                  "id": "1.5.1.1",
+                  "product_name": "Weather Proof Louvers",
+                  "image": "assets/product-images/weather_proof.jpeg",
+                  "description": "Designed to prevent rainwater penetration while allowing airflow."
+                },
+                {
+                  "id": "1.5.1.2",
+                  "product_name": "Sand Trap Louvers",
+                  "image": "assets/product-images/sand_trap.jpeg",
+                  "description": "Effectively filters sand and dust in desert climates."
+                },
+                {
+                  "id": "1.5.1.3",
+                  "product_name": "Drainable Louvers",
+                  "image": "assets/product-images/drainable.jpeg",
+                  "description": "Includes drainage channels to direct water away and enhance moisture protection."
+                },
+                {
+                  "id": "1.5.1.4",
+                  "product_name": "Acoustic Louvers",
+                  "image": "assets/product-images/acoustic.jpeg",
+                  "description": "Reduces noise transmission while allowing ventilation."
+                },
+                {
+                  "id": "1.5.1.5",
+                  "product_name": "Fresh Air Louvers",
+                  "image": "assets/product-images/fresh_air.jpeg",
+                  "description": "Facilitates intake of outside air for better ventilation."
+                },
+                {
+                  "id": "1.5.1.6",
+                  "product_name": "Hurricane and Wind – Driven Louver",
+                  "image": "assets/product-images/wind.png",
+                  "description": "Engineered for extreme weather, resists wind and rain intrusion."
+                },
+                {
+                  "id": "1.5.1.7",
+                  "product_name": "Penthouse Louvers",
+                  "image": "assets/product-images/penthouse.jpeg",
+                  "description": "Mounted on rooftops for exhaust or intake; ideal for large buildings."
+                },
+                {
+                  "id": "1.5.1.8",
+                  "product_name": "Stationary Louvers",
+                  "image": "assets/product-images/stationary_louver.jpg",
+                  "description": "Simple fixed blades for continuous airflow applications."
+                }
+              ]
+            }
+            ]
         },
         {
           "id": "1.6",
           "cate_name": "Air Outlets (GRD)",
           "image": "assets/product-images/air_outlets.jpeg",
           "description": "Air outlets (grilles, registers, diffusers) that distribute and direct airflow effectively in HVAC spaces.",
-          "productList": []
+          "slug" : "air-outlets",
+          "productList": [
+            {
+              "id": "1.6.1",
+              "cate_name": "Air Outlets (GRD)",
+              "image": "assets/product-images/air_outlets.jpeg",
+              "description": "Air outlets (grilles, registers, diffusers) that distribute and direct airflow effectively in HVAC spaces.",
+              "productList": [
+                {
+                  "id": "1.6.1.1",
+                  "product_name": "Square Ceiling Diffusers",
+                  "image": "assets/product-images/square_ celling_iffuser.jpeg",
+                  "description": "Provides even air distribution in ceiling-mounted HVAC systems."
+                },
+                {
+                  "id": "1.6.1.2",
+                  "product_name": "Grill and Registers",
+                  "image": "assets/product-images/grills_registers.png",
+                  "description": "Controls air flow direction and volume at duct openings."
+                },
+                {
+                  "id": "1.6.1.3",
+                  "product_name": "Linear Diffusers",
+                  "image": "assets/product-images/linear_diffusers.jpeg",
+                  "description": "Slim-profile diffusers ideal for modern interior air distribution."
+                },
+                {
+                  "id": "1.6.1.4",
+                  "product_name": "Linear Bar Grilles",
+                  "image": "assets/product-images/linear-bar-grilles.jpg",
+                  "description": "Aesthetic and functional grilles for supply or return air."
+                },
+                {
+                  "id": "1.6.1.5",
+                  "product_name": "Chilled Beam Diffuser",
+                  "image": "assets/product-images/chilled-beam-diffuser.jpg",
+                  "description": "Efficient cooling solution combining air and water systems."
+                },
+                {
+                  "id": "1.6.1.6",
+                  "product_name": "Deflection Air Grilles",
+                  "image": "assets/product-images/deflection_air_grill.jpg",
+                  "description": "Adjustable grilles for controlled directional airflow."
+                },
+                {
+                  "id": "1.6.1.7",
+                  "product_name": "Eggcrate Grilles",
+                  "image": "assets/product-images/Egg-Crate-Grilles.jpg",
+                  "description": "High free-area grilles for return and exhaust air."
+                },
+                {
+                  "id": "1.6.1.8",
+                  "product_name": "Door Transfer Grille",
+                  "image": "assets/product-images/Door-Transfer-Grille.jpg",
+                  "description": "Allows air movement between rooms through doors."
+                },
+                {
+                  "id": "1.6.1.9",
+                  "product_name": "Flowbar Diffuser",
+                  "image": "assets/product-images/Flow-Bar-Diffuser.jpg",
+                  "description": "High-performance diffuser offering a continuous linear appearance."
+                },
+                {
+                  "id": "1.6.1.10",
+                  "product_name": "Jet Nozzles",
+                  "image": "assets/product-images/Jet_Nozzles.jpeg",
+                  "description": "Long-throw diffusers for large spaces like auditoriums."
+                },
+                {
+                  "id": "1.6.1.11",
+                  "product_name": "Disc Valve",
+                  "image": "assets/product-images/Disc_Valve.webp",
+                  "description": "Compact air valves for supply and exhaust air applications."
+                },
+                {
+                  "id": "1.6.1.12",
+                  "product_name": "Drum Louver Diffuser",
+                  "image": "assets/product-images/Drum _louver_Diffuser.jpeg",
+                  "description": "Adjustable nozzle diffuser for directional air control."
+                }
+
+              ]
+            }
+
+          ]
         },
         {
           "id": "1.7",
           "cate_name": "Air Curtains",
           "image": "assets/product-images/air_curtains.webp",
-          "description": "Air curtains that create an invisible barrier to maintain indoor air quality and save energy.",
-          "productList": []
+          "description": "Air curtains that create an invisible barrier to maintain indoor air quality and save energy.",          
+          "slug" : "air-curtains",
+          "productList": [
+            {
+              "id": "1.7.1",
+              "cate_name": "Air Curtains",
+              "image": "assets/product-images/air_curtains.webp",
+              "description": "Air curtains that create an invisible barrier to maintain indoor air quality and save energy.",
+              "productList": [
+                {
+                  "id": "1.7.1.1",
+                  "product_name": "ACL - Air Curtain",
+                  "image": "assets/product-images/ACL_air-curtain.webp",
+                  "description": "Durable air curtain designed for commercial and industrial doorways to prevent dust and insects while retaining indoor temperature."
+                },
+                {
+                  "id": "1.7.1.2",
+                  "product_name": "ACM - Air Curtain",
+                  "image": "assets/product-images/ACM-Air_Curtain.webp",
+                  "description": "High-performance air curtain for medium-traffic entrances, ensuring better airflow control and energy savings."
+                }
+                
+              ]
+            }
+
+          ]
         },
         {
           "id": "1.8",
           "cate_name": "Air Side Accessories",
           "image": "assets/product-images/air_side_accessories.png",
           "description": "Air side accessories that enhance airflow control, distribution, and system efficiency in HVAC applications.",
-          "productList": []
+          "slug" : "air-side",
+          "productList": [
+            {
+              "id": "1.8.1",
+              "cate_name": "Air Side Accessories",
+              "image": "assets/product-images/air_side_accessories.png",
+              "description": "Air side accessories that enhance airflow control, distribution, and system efficiency in HVAC applications.",
+              "productList": [
+                { "id": "1.8.1.1", "product_name": "Hepa Filters", "image": "assets/product-images/HEPA-Filter.webp", "description": "High-efficiency particulate air filters to remove fine airborne particles." },
+                { "id": "1.8.1.2", "product_name": "Inertial Filters", "image": "assets/product-images/Inertial_filters.jpg", "description": "Utilizes inertia to capture larger particles in airflow." },
+                { "id": "1.8.1.3", "product_name": "Marine Oil & Gas Dampers", "image": "assets/product-images/Marine oil_Gas_Dampers-Photoroom.jpg", "description": "Heavy-duty dampers for offshore oil and gas applications." },
+                { "id": "1.8.1.4", "product_name": "Duct Heaters", "image": "assets/product-images/Duct-heater.webp", "description": "Electric or hot water-based heaters for HVAC ducts." },
+                { "id": "1.8.1.5", "product_name": "Electric Heater", "image": "assets/product-images/Electric- Heater.jpeg", "description": "Electric-powered air heating element for controlled heating." },
+                { "id": "1.8.1.6", "product_name": "Blast Valves", "image": "assets/product-images/Blast-Valves-Photoroom.jpg", "description": "Designed to protect ventilation systems from pressure surges." },
+                { "id": "1.8.1.7", "product_name": "Tunnel Dumpers", "image": "assets/product-images/Tunnel-dumper.webp", "description": "Controls airflow in tunnel ventilation systems." },
+                { "id": "1.8.1.8", "product_name": "Smoke & Heat Exhaust Vents", "image": "assets/product-images/Smoke-heat-Exhaust-Vent-Photoroom.jpg", "description": "Exhausts smoke and heat in case of fire." },
+                { "id": "1.8.1.9", "product_name": "Silicon & Fire Stoppers", "image": "assets/product-images/Silicon-nd -Fire -Stoppers-Photoroom.jpg", "description": "Seals and protects penetrations in fire-rated constructions." },
+                { "id": "1.8.1.10", "product_name": "Fire Rated Coating", "image": "assets/product-images/fire-retardant-coating.jpg", "description": "Protective coating to delay fire spread on ducts and surfaces." },
+                { "id": "1.8.1.11", "product_name": "Trench Heaters", "image": "assets/product-images/Trench-heaters.jpg", "description": "Low-profile floor heaters for perimeter heating." },
+                { "id": "1.8.1.12", "product_name": "Smoke and Fire Curtains", "image": "assets/product-images/Smoke_Fire_Curtains.jpeg", "description": "Automatic curtains for smoke and fire containment." },
+                { "id": "1.8.1.13", "product_name": "Stainless Steel Air Outlets", "image": "assets/product-images/Stainless-Steel-air-outlet.png", "description": "Durable air outlets suitable for hygienic and aesthetic environments." },
+                { "id": "1.8.1.14", "product_name": "Addressable Controller", "image": "assets/product-images/addressable_controller_Photoroom.jpg", "description": "Smart controller for individual device communication in HVAC systems." },
+                { "id": "1.8.1.15", "product_name": "AHU Air Cleaner Trion EFB", "image": "assets/product-images/AHU_air_cleaner_Trion_EFB.jpg", "description": "Advanced air purification for Air Handling Units." },
+                { "id": "1.8.1.16", "product_name": "FCU Return Air Cleaners", "image": "assets/product-images/FCU-return-air-cleaners-Photoroom.jpg", "description": "Filters returning air in Fan Coil Units." },
+                { "id": "1.8.1.17", "product_name": "Ducted Air Cleaners", "image": "assets/product-images/Ducted_Air_Cleaners.jpeg", "description": "Inline air cleaners for ducted systems." },
+                { "id": "1.8.1.18", "product_name": "Independent Air Cleaners", "image": "assets/product-images/Independent _air_cleaners.webp", "description": "Standalone air purifiers for room-level filtration." },
+                { "id": "1.8.1.19", "product_name": "Modular HEPA Air Purifier", "image": "assets/product-images/Modular HEPA air purifier.jpg", "description": "Modular units offering scalable HEPA filtration." },
+                { "id": "1.8.1.20", "product_name": "Kitchen Oil Purification", "image": "assets/product-images/Kitchen_oil_purification.avif", "description": "Removes oil particles from commercial kitchen exhaust." },
+                { "id": "1.8.1.21", "product_name": "Kitchen Odor Purification", "image": "assets/product-images/Odor Purification.webp", "description": "Neutralizes odors in commercial kitchen systems." },
+                { "id": "1.8.1.22", "product_name": "FAN Filter Units", "image": "assets/product-images/Fan_Filter_Unit.jpg", "description": "Integrated fan and filtration modules for cleanrooms." },
+                { "id": "1.8.1.23", "product_name": "Thermostats and Sensors", "image": "assets/product-images/Thermostats_Sensors_Photoroom.jpg", "description": "Controls and monitors environmental parameters in HVAC." },
+                { "id": "1.8.1.24", "product_name": "VAV Wall Mounted Controller", "image": "assets/product-images/VAV-wall-mounted-Controller-Photoroom.jpg", "description": "Wall-mounted control unit for Variable Air Volume systems." },
+                { "id": "1.8.1.25", "product_name": "Supports and Hangers", "image": "assets/product-images/Support-hangers-Photoroom.jpg", "description": "Mounting accessories for duct and equipment support." },
+                { "id": "1.8.1.26", "product_name": "Flexible Duct Connector", "image": "assets/product-images/Flexible-Duct-Connector.webp", "description": "Flexible connections to reduce vibration and misalignment." },
+                { "id": "1.8.1.27", "product_name": "Flexible Duct", "image": "assets/product-images/Flexible-Duct.webp", "description": "Flexible air distribution ducting for limited space installations." },
+                { "id": "1.8.1.28", "product_name": "Duct Accessories", "image": "assets/product-images/Duct-Accessories.avif", "description": "General fittings and accessories for ductwork systems." },
+                { "id": "1.8.1.29", "product_name": "Rubber Inserts", "image": "assets/product-images/Rubber-Inserts.jpg", "description": "Used for vibration isolation in HVAC mounts." }
+                  ]
+              }
+            ]
         },
         {
           "id": "1.9",
           "cate_name": "HVAC insulation and Accessories",
           "image": "assets/product-images/HVAC_insulation.png",
           "description": "Insulation and accessories that improve energy efficiency, reduce noise, and protect HVAC systems.",
-          "productList": []
+          "slug" : "HVAC-insulation",
+          "productList": [
+            {
+              "id": "1.9.1",
+              "cate_name": "HVAC insulation and Accessories",
+              "image": "assets/product-images/HVAC_insulation.png",
+              "description": "Insulation and accessories that improve energy efficiency, reduce noise, and protect HVAC systems.",
+              "productList": [
+                {
+                  "id": "1.9.1.1",
+                  "product_name": "EXLE - Pipe and Duct Insulation",
+                  "image": "assets/product-images/EXLE-pipe-nd-Duct-Insulation.jpeg",
+                  "description": "High-performance insulation for both pipes and ductwork to reduce heat loss and prevent condensation."
+                },
+                {
+                  "id": "1.9.1.2",
+                  "product_name": "Rubber Insulation",
+                  "image": "assets/product-images/Rubber-Insulation.avif",
+                  "description": "Flexible rubber-based insulation ideal for preventing condensation and thermal loss in HVAC systems."
+                }
+              ]
+            }
+           ]
         },
         {
           "id": "1.10",
           "cate_name": "Chilled and Hot Water System",
           "image": "assets/product-images/chilled_hot_water.png",
           "description": "Chilled and hot water system equipment",
-          "productList": []
+          "slug" : "chilled-hot-water-system",
+          "productList": [
+            {
+              "id": "1.10.1",
+              "product_name": "HVAC Valves and Accessories",
+              "image": "assets/product-images/hvac_valves_and_accessories_item.jpg",
+              "description": "A complete range of valves and fittings for regulating flow, pressure, and temperature in HVAC systems.",
+              "productList": [
+                {
+                  "id": "1.10.1.1",
+                  "product_name": "AHU Valve Package",
+                  "image": "assets/product-images/AHU valve package.png",
+                  "description": "Valve set designed for Air Handling Units to control water flow in HVAC systems."
+                },
+                {
+                  "id": "1.10.1.2",
+                  "product_name": "FCU Valve Package",
+                  "image": "assets/product-images/FCU_valve_package.png",
+                  "description": "Compact valve kits used with Fan Coil Units for efficient temperature control."
+                },
+                {
+                  "id": "1.10.1.3",
+                  "product_name": "Water Works Valves",
+                  "image": "assets/product-images/Water_works_Valve.jpg",
+                  "description": "Heavy-duty valves used in water supply and distribution systems."
+                },
+                {
+                  "id": "1.10.1.4",
+                  "product_name": "Flange",
+                  "image": "assets/product-images/Flange.jpg",
+                  "description": "Used to connect pipes, valves, and other equipment in piping systems."
+                },
+                {
+                  "id": "1.10.1.5",
+                  "product_name": "Welded Fittings",
+                  "image": "assets/product-images/weldED_fittings.webp",
+                  "description": "Welded pipe connectors that ensure leak-free and durable joints."
+                },
+                {
+                  "id": "1.10.1.6",
+                  "product_name": "Threaded Fittings",
+                  "image": "assets/product-images/Threaded_Fittg.jpg",
+                  "description": "Fittings with threaded ends for easy pipe connections in HVAC setups."
+                },
+                {
+                  "id": "1.10.1.7",
+                  "product_name": "Electric Actuators",
+                  "image": "assets/product-images/Electric_Actuator.jpeg",
+                  "description": "Motor-driven devices for controlling valve operations automatically."
+                },
+                {
+                  "id": "1.10.1.8",
+                  "product_name": "Pressure Independent Control Valves",
+                  "image": "assets/product-images/Pressure-independent-control-valves.jpg",
+                  "description": "Maintain constant flow and improve energy efficiency regardless of pressure fluctuations."
+                },
+                {
+                  "id": "1.10.1.9",
+                  "product_name": "Actuators for Control Valves",
+                  "image": "assets/product-images/Actuators_for_control_valve.jpg",
+                  "description": "Mechanical devices for automatic control of valve positions."
+                },
+                {
+                  "id": "1.10.1.10",
+                  "product_name": "Differential Pressure Control Valves",
+                  "image": "assets/product-images/Differential pressure control valve-Photoroom.jpg",
+                  "description": "Regulate differential pressure to ensure proper valve performance."
+                },
+                {
+                  "id": "1.10.1.11",
+                  "product_name": "BTU (Energy) Meters",
+                  "image": "assets/product-images/BTU-meter.webp",
+                  "description": "Measure thermal energy consumed in HVAC systems for billing and analysis."
+                },
+                {
+                  "id": "1.10.1.12",
+                  "product_name": "Isolation Valve",
+                  "image": "assets/product-images/isolation-valve-Photoroom.jpg",
+                  "description": "Shuts off flow in sections of the HVAC system for maintenance or emergency."
+                },
+                {
+                  "id": "1.10.1.13",
+                  "product_name": "Gate Valve",
+                  "image": "assets/product-images/Gate-valve.jpg",
+                  "description": "Linear-motion valve for on/off control of fluid flow."
+                },
+                {
+                  "id": "1.10.1.14",
+                  "product_name": "Globe Valve",
+                  "image": "assets/product-images/Globe-Valve.webp",
+                  "description": "Designed for throttling flow and accurate regulation."
+                },
+                {
+                  "id": "1.10.1.15",
+                  "product_name": "Ball Valve",
+                  "image": "assets/product-images/Ball_Valve.jpg",
+                  "description": "Quick shut-off valve using a rotating ball mechanism."
+                },
+                {
+                  "id": "1.10.1.16",
+                  "product_name": "Pressure Relief Valve",
+                  "image": "assets/product-images/Pressure-relief-valve.jpg",
+                  "description": "Prevents overpressure in systems by releasing excess fluid."
+                },
+                {
+                  "id": "1.10.1.17",
+                  "product_name": "Butterfly Valve",
+                  "image": "assets/product-images/Butterfly_Valve.jpeg",
+                  "description": "Rotary valve for isolating or regulating flow in HVAC pipelines."
+                },
+                {
+                  "id": "1.10.1.18",
+                  "product_name": "Stainer",
+                  "image": "assets/product-images/Stainer.webp",
+                  "description": "Removes debris and protects valves and pumps from damage."
+                },
+                {
+                  "id": "1.10.1.19",
+                  "product_name": "Check Valve",
+                  "image": "assets/product-images/Iinline-check-valve.jpg",
+                  "description": "Allows flow in one direction only to prevent backflow."
+                },
+                {
+                  "id": "1.10.1.20",
+                  "product_name": "Flexible Connector",
+                  "image": "assets/product-images/Flexible-connector-Photoroom.jpg",
+                  "description": "Absorbs vibrations and thermal expansion in piping systems."
+                },
+                {
+                  "id": "1.10.1.21",
+                  "product_name": "Solenoid Valve",
+                  "image": "assets/product-images/Solenoid-Valve.webp",
+                  "description": "Electromechanically operated valve for flow control."
+                },
+                {
+                  "id": "1.10.1.22",
+                  "product_name": "Zone Valve",
+                  "image": "assets/product-images/Zone_Valve.avif",
+                  "description": "Controls flow to specific zones in a heating or cooling system."
+                },
+                {
+                  "id": "1.10.1.23",
+                  "product_name": "Pressure Reducing Valve",
+                  "image": "assets/product-images/Pressure-reducing-valve.avif",
+                  "description": "Reduces inlet pressure to a desired outlet pressure level."
+                },
+                {
+                  "id": "1.10.1.24",
+                  "product_name": "Balancing Valve",
+                  "image": "assets/product-images/Balancing_Valve.jpeg",
+                  "description": "Ensures proper distribution of fluid flow in HVAC systems."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "1.11",
           "cate_name": "Equipment’s",
           "image": "assets/product-images/equipments.png",
           "description": "High-performance HVAC equipment designed for reliable, energy-efficient heating, cooling, and ventilation.",
-          "productList": []
-        },
+          "slug" : "equipments",
+          "productList": [
+            {
+              "id": "1.11.1",
+              "cate_name": "Ventilation Fan",
+              "image": "assets/product-images/ventilation_fan.jpg",
+              "description": "A range of ventilation fans designed to improve indoor air quality by efficiently removing stale air, moisture, and contaminants from enclosed spaces.",
+              "productList": [
+                {
+                  "id": "1.11.1.1",
+                  "product_name": "Axial Fans",
+                  "image": "assets/product-images/Axial-fans-Photoroom.jpg",
+                  "description": "Efficient fans that move air along the axis of rotation, ideal for general ventilation purposes."
+                },
+                {
+                  "id": "1.11.1.2",
+                  "product_name": "Insulated Duct Fans",
+                  "image": "assets/product-images/Insulated Duct FAn-Photoroom.jpg",
+                  "description": "Designed to reduce noise and thermal loss in HVAC duct systems with integrated insulation."
+                },
+                {
+                  "id": "1.11.1.3",
+                  "product_name": "Circular Ducted Fans",
+                  "image": "assets/product-images/Circular-Duct-Fans.jpg",
+                  "description": "Compact and efficient fans for circular duct applications in air distribution systems."
+                },
+                {
+                  "id": "1.11.1.4",
+                  "product_name": "Roof Fans",
+                  "image": "assets/product-images/Roof-Fans.jpg",
+                  "description": "Mounted on rooftops for extraction of stale air and fumes from buildings."
+                },
+                {
+                  "id": "1.11.1.5",
+                  "product_name": "Jet Fans",
+                  "image": "assets/product-images/Jet -Fans.jpg",
+                  "description": "High-velocity fans used in large enclosed spaces such as tunnels and car parks."
+                },
+                {
+                  "id": "1.11.1.6",
+                  "product_name": "Transfer Fan",
+                  "image": "assets/product-images/Transfer-Fan.jpeg",
+                  "description": "Designed to move air from one zone to another, maintaining balanced airflow."
+                },
+                {
+                  "id": "1.11.1.7",
+                  "product_name": "Centrifugal Fans",
+                  "image": "assets/product-images/Centrifugal-fans-Photoroom.jpg",
+                  "description": "Fans that use centrifugal force to move air, commonly used in HVAC systems for high-pressure applications."
+                },
+                {
+                  "id": "1.11.1.8",
+                  "product_name": "Axial Wall mounted Fans",
+                  "image": "assets/product-images/Axial Wall mounted Fans.jpg",
+                  "description": "Wall-mounted axial fans suited for direct air discharge in commercial and industrial applications."
+                }
+              ]
+            },
+            {
+              "id": "1.11.2",
+              "cate_name": "Pumps and accessories",
+              "image": "assets/product-images/pumps_and_accessories.jpg",
+              "description": "Comprehensive range of pumps and related accessories designed to support fluid movement and pressure regulation across HVAC and plumbing systems.",
+              "productList": [
+                {
+                  "id": "1.11.2.1",
+                  "product_name": "End Suction Centrifugal Pumps",
+                  "image": "assets/product-images/End-Suction-Centrifugal-Pump.jpg",
+                  "description": "Versatile and compact pumps designed for general water circulation in HVAC and plumbing applications."
+                },
+                {
+                  "id": "1.11.2.2",
+                  "product_name": "In-line Centrifugal Pumps",
+                  "image": "assets/product-images/Inline Centrifugal_Pump.jpg",
+                  "description": "Space-saving pumps designed for easy integration into pipelines, reducing the need for alignment."
+                },
+                {
+                  "id": "1.11.2.3",
+                  "product_name": "Split-Case Centrifugal Pumps",
+                  "image": "assets/product-images/Split Case Centrifugal Pump.jpg",
+                  "description": "Heavy-duty pumps suitable for high-flow applications with easy maintenance access."
+                },
+                {
+                  "id": "1.11.2.4",
+                  "product_name": "Multistage Centrifugal Pumps",
+                  "image": "assets/product-images/Multistage-Centrifugal-Pump.webp",
+                  "description": "High-pressure pumps ideal for applications requiring significant head, such as high-rise buildings."
+                },
+                {
+                  "id": "1.11.2.5",
+                  "product_name": "Vertical Turbine Pumps",
+                  "image": "assets/product-images/Vertical-turbine-pump.jpg",
+                  "description": "Specialized pumps for deep well applications and systems needing vertical installation."
+                }
+              ]
+            },
+            {
+              "id": "1.11.3",
+              "cate_name": "AHU",
+              "image": "assets/product-images/ahu.jpg",
+              "description": "Air Handling Units designed for regulating and circulating air as part of HVAC systems, enhancing indoor air quality and comfort.",
+              "productList": [
+                {
+                  "id": "1.11.3.1",
+                  "product_name": "Air Handling Units",
+                  "image": "assets/product-images/Air-handling-units.webp",
+                  "description": "Central units designed to condition and circulate air as part of a complete HVAC system."
+                },
+                {
+                  "id": "1.11.3.2",
+                  "product_name": "Heat Recovery Units",
+                  "image": "assets/product-images/heat-recovery-unit.webp",
+                  "description": "Systems that recover heat from exhaust air to improve energy efficiency in ventilation systems."
+                },
+                {
+                  "id": "1.11.3.3",
+                  "product_name": "Fresh Air Handling Units",
+                  "image": "assets/product-images/fresh-air-handling-unit.png",
+                  "description": "AHUs designed specifically to supply and condition fresh outdoor air into indoor spaces."
+                },
+                {
+                  "id": "1.11.3.4",
+                  "product_name": "Ducted Fan Coil Units - Chilled Water",
+                  "image": "assets/product-images/ducted-fan-coil-unit-chilled-watr.webp",
+                  "description": "Concealed fan coil units using chilled water for air conditioning in ducted HVAC applications."
+                },
+                {
+                  "id": "1.11.3.5",
+                  "product_name": "Decorative Fan Coil Units - Chilled Water",
+                  "image": "assets/product-images/decorative-chilled-water-fan-coil-unit.jpg",
+                  "description": "Aesthetically designed FCUs suitable for indoor environments using chilled water for cooling."
+                },
+                {
+                  "id": "1.11.3.6",
+                  "product_name": "VRV Multi Split Units",
+                  "image": "assets/product-images/VRV multi split units.jpg",
+                  "description": "Variable refrigerant volume systems supporting multiple indoor units for zoned cooling and heating."
+                },
+                {
+                  "id": "1.11.3.7",
+                  "product_name": "DX Units",
+                  "image": "assets/product-images/Dx-units.png",
+                  "description": "Direct expansion systems used for cooling applications with built-in refrigerant-based coils."
+                },
+                {
+                  "id": "1.11.3.8",
+                  "product_name": "Heat Exchanger",
+                  "image": "assets/product-images/heat_exchanger.jpg",
+                  "description": "Devices used to transfer heat efficiently between two or more fluids."
+                },
+                {
+                  "id": "1.11.3.9",
+                  "product_name": "Air Separator",
+                  "image": "assets/product-images/air-separator.png",
+                  "description": "Used in HVAC piping systems to eliminate trapped air, enhancing thermal efficiency."
+                },
+                {
+                  "id": "1.11.3.10",
+                  "product_name": "Dosing Units",
+                  "image": "assets/product-images/dosing-unit.jpg",
+                  "description": "Units designed to inject chemicals into HVAC water systems for treatment and maintenance."
+                },
+                {
+                  "id": "1.11.3.11",
+                  "product_name": "Pressurization Units",
+                  "image": "assets/product-images/pressurisation-unit.webp",
+                  "description": "Equipment designed to maintain air pressure differentials to control airflow and prevent backflow."
+                }
+          ]
+        }
+      ]
+      },
         {
           "id": "1.12",
           "cate_name": "Controls",
           "image": "assets/product-images/controls.png",
           "description": "Advanced HVAC controls that optimize system performance, enhance energy efficiency, and provide seamless operation.",
-          "productList": []
+          "slug" : "controls",
+          "productList": [
+            {
+              "id": "1.12.1",
+              "cate_name": "Controls",
+              "image": "assets/product-images/controls.png",
+              "description": "Advanced HVAC controls that optimize system performance, enhance energy efficiency, and provide seamless operation.",
+              "productList": [
+                {
+                  "id": "1.15.1",
+                  "product_name": "VFD (Variable Frequency Drive)",
+                  "image": "assets/product-images/vfd.jpg",
+                  "description": "Electronic device used to control motor speed and torque by varying motor input frequency and voltage."
+                },
+                {
+                  "id": "1.15.2",
+                  "product_name": "FCU Control Panel",
+                  "image": "assets/product-images/FCU-control-panel.jpeg",
+                  "description": "Panel designed to manage and automate operations of Fan Coil Units in HVAC systems."
+                },
+                {
+                  "id": "1.15.3",
+                  "product_name": "AHU Control Panel",
+                  "image": "assets/product-images/Ahu-contorl-panel.jpg",
+                  "description": "Control system for monitoring and managing the functions of Air Handling Units in ventilation systems."
+                },
+                {
+                  "id": "1.15.4",
+                  "product_name": "Pump Control Panels",
+                  "image": "assets/product-images/pump-control-panels.webp",
+                  "description": "Panels that automate and protect pump operations in HVAC and plumbing systems."
+                }
+              ]
+            }
+
+          ]
         },
         {
           "id": "1.13",
           "cate_name": "Critical Environment & Displacement Ventilation - Intertek Certified",
           "image": "assets/product-images/crit_env_displacement_ventilation.jpeg",
           "description": "Intertek certified critical environment and displacement ventilation systems ensuring optimal air quality and precise control in sensitive areas.",
-          "productList": []
+          "slug" : "critical-environment",        
+          "productList": [
+            {
+              "id": "1.13.1",
+              "cate_name": "Critical Environment & Displacement Ventilation - Intertek Certified",
+              "image": "assets/product-images/controls.png",
+              "description": "Advanced HVAC controls that optimize system performance, enhance energy efficiency, and provide seamless operation.",
+              "productList": [
+                {
+                  "id": "1.13.1.1",
+                  "product_name": "Laminar Flow Diffuser",
+                  "image": "assets/product-images/Laminar Flow diffuser.jpeg",
+                  "description": "Electronic device used to control motor speed and torque by varying motor input frequency and voltage."
+                },
+                {
+                  "id": "1.13.1.2",
+                  "product_name": "Displacement Flow Diffuser",
+                  "image": "assets/product-images/Displacement Flow Diffusers.jpeg",
+                  "description": "Panel designed to manage and automate operations of Fan Coil Units in HVAC systems."
+                }
+              ]
+            }
+
+          ]
         }
       ]
     },
@@ -417,6 +1069,13 @@
           "id": "2.7",
           "cate_name": "UPS",
           "image": "assets/product-images/ups.png",
+          "description": "",
+          "productList": []
+        },
+        {
+          "id": "2.8",
+          "cate_name": "Fire Alarm",
+          "image": "assets/product-images/fire_alarm.png",
           "description": "",
           "productList": []
         }
