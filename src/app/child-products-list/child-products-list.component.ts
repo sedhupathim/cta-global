@@ -38,7 +38,6 @@ export class ChildProductsListComponent {
           // Find child category inside selected category
           if (this.selectedCategory && this.selectedCategory.productList) {
             this.selectedChildCategory = this.selectedCategory.productList.find((child: any) => child.slug === this.child_category_slug) || {};
-            console.log('Selected Child Category:', this.selectedChildCategory);
           } else {
             this.selectedChildCategory = {};
           }
@@ -55,7 +54,10 @@ export class ChildProductsListComponent {
   goHome() {
     this.router.navigate(['/']);
   }
-    
+  
+  onShareClick(event: MouseEvent): void {
+   event.stopPropagation();
+   }
   
 
 }

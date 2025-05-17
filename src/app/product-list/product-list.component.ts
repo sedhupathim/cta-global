@@ -9,34 +9,32 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ProductListComponent {
 
- categories : [] = [];   
- selectedCategory: any = null;
- category_slug : string = '';
- constructor(
- private http: HttpClient,
- private ac_route : ActivatedRoute,
- private router : Router) {}
+  categories: [] = [];
+  selectedCategory: any = null;
+  category_slug: string = '';
+  constructor(
+    private http: HttpClient,
+    private ac_route: ActivatedRoute,
+    private router: Router) { }
 
   ngOnInit() {
-    
     this.http.get<any[]>('assets/product-categories.json')
       .subscribe((data: any) => {
         this.categories = data;
-        this.ac_route.params.subscribe((params) => {  
-        this.category_slug = params['category_slug'];
-        this.selectedCategory = this.categories.find((category: any) => category.slug === this.category_slug) || {};
+        this.ac_route.params.subscribe((params) => {
+          this.category_slug = params['category_slug'];
+          this.selectedCategory = this.categories.find((category: any) => category.slug === this.category_slug) || {};
         }
         );
       });
   }
-  
+
   goHome() {
     this.router.navigate(['/']);
   }
 
-  openProducts(slug:any){
-  this.router.navigate([ `/products/category/${this.category_slug}/${slug}`]);
+  openProducts(slug: any) {
+    this.router.navigate([`/products/category/${this.category_slug}/${slug}`]);
   }
-
-
+  
 }
