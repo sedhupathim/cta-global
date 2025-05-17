@@ -11,6 +11,7 @@ import { ServiceComponent } from './service/service.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ChildProductsListComponent } from './child-products-list/child-products-list.component';
+import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ChildProductsListComponent } from './child-products-list/child-products
     ServiceComponent,
     ProductListComponent,
     AboutUsComponent,
-    ChildProductsListComponent
+    ChildProductsListComponent,
+    AboutUsPageComponent
   ],
   imports: [
     BrowserModule,

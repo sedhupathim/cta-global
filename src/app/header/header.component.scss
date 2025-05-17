@@ -5,13 +5,13 @@ nav {
 }
 
 .bg-custom {
-  background-color: #e4e4e4e3;
+  background-color: #000;
 }
 .navbar-nav {
     gap: 50px;
     .nav-item {
         a {
-          color: #525552;
+          color: #fff;
           font-size: 20px;
           font-weight: 500;
           line-height: normal;
@@ -188,13 +188,13 @@ nav {
       margin-left: 20px;
       cursor: pointer;
       &.with-bg{
-        background-color: #36B864;
-        padding: 8px;
+        // background-color: #36B864;
         border-radius: 50%;
-        height: 32px;
         display: flex;
         align-items: center;
-        width: 32px;
+        text-decoration: none;
+        color: #fff;
+        gap: 5px;
         svg{
           width: 19px;
           height: 19px;
