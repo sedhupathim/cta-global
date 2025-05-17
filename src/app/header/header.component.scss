@@ -185,7 +185,7 @@ nav {
       border: 1px solid #84A2FA;
     }
     .menu-icon {
-      margin-left: 20px;
+      margin-right: 20px;
       cursor: pointer;
       &.with-bg{
         // background-color: #36B864;
@@ -201,4 +201,25 @@ nav {
         }
 }
       }
-    
+
+    .menu-flex {
+      display: flex;
+      flex-direction: row;
+
+      a {
+        &.menu-icon {
+          margin-right: 0px;
+          margin-left: 20px;
+        }
+        img {
+          margin-right: 5px;
+        }
+      }  
+      .menu-divider {
+        width: 1px;
+        display: block;
+        background: #f0f8ff8f;
+        margin-right: 0px;
+        margin-left: 20px;
+      }
+    }
