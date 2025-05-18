@@ -15,7 +15,7 @@
         </div>
         <div class="product-container">
             <div class="row row-cols-5 row-cols-sm-2 row-cols-lg-4 row-cols-xl-5">
-                <div class="col" *ngFor = "let item of selectedCategory?.productList">
+                <div class="col-12" *ngFor = "let item of selectedCategory?.productList">
                     <div class="product-box cursor" (click)="openProducts(item?.slug)">
                         <div class="product-image">
                             <img [src]="item?.image" alt="Product Image">

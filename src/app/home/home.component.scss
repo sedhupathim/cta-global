@@ -195,27 +195,11 @@ body {
             justify-content: center; 
             margin-top: 1.5rem;
         }
-        .image-box {
-            width: 378px;
-            height: 378px;
-            border-radius: 10px;
-            z-index: 1;
-            position: relative;
-            background: #36B864;
+        
+        img {
             @media (max-width: 1024px) {
-                width: 250px;
-                height: 250px;
-            }
-            img {
-                position: absolute;
-                top: 20px;
-                transform: translate(-0%, 0%);
-                z-index: 999;
-                right: 20px;
-                @media (max-width: 1024px) {
-                    width: 250px;
-                    height: 250px;
-                }
+                width: 100%;
+                height: auto;
             }
         }
     }
