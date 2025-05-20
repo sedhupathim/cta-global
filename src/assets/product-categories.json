@@ -52,7 +52,7 @@
                 {
                   "id": "1.1.1.6",
                   "product_name": "PalDuct Panel Accessories, Adhesive Material & Components",
-                  "image": "assets/product-images/palduct _panel _acc.jpg",
+                  "image": "assets/product-images/palduct_panel_acc.jpg",
                   "description": "Air distribution and ventilation components"
                 }
               ]
@@ -429,13 +429,13 @@
                 {
                   "id": "1.6.1.2",
                   "product_name": "Grill and Registers",
-                  "image": "assets/product-images/grill_and_registers.jpg",
+                  "image": "assets/product-images/grill_and_registers.png",
                   "description": "Controls air flow direction and volume at duct openings."
                 },
                 {
                   "id": "1.6.1.3",
                   "product_name": "Linear Diffusers",
-                  "image": "assets/product-images/linear_diffusers.jpg",
+                  "image": "assets/product-images/linear_diffusers.jpeg",
                   "description": "Slim-profile diffusers ideal for modern interior air distribution."
                 },
                 {
@@ -477,19 +477,19 @@
                 {
                   "id": "1.6.1.10",
                   "product_name": "Jet Nozzles",
-                  "image": "assets/product-images/jet_nozzles.jpg",
+                  "image": "assets/product-images/Jet_nozzles.jpeg",
                   "description": "Long-throw diffusers for large spaces like auditoriums."
                 },
                 {
                   "id": "1.6.1.11",
                   "product_name": "Disc Valve",
-                  "image": "assets/product-images/disc_valve.jpg",
+                  "image": "assets/product-images/disc_valve.webp",
                   "description": "Compact air valves for supply and exhaust air applications."
                 },
                 {
                   "id": "1.6.1.12",
                   "product_name": "Drum Louver Diffuser",
-                  "image": "assets/product-images/drum_louver_diffuser.jpg",
+                  "image": "assets/product-images/drum _louver_diffuser.jpeg",
                   "description": "Adjustable nozzle diffuser for directional air control."
                 }
 
@@ -514,13 +514,13 @@
                 {
                   "id": "1.7.1.1",
                   "product_name": "ACL - Air Curtain",
-                  "image": "assets/product-images/acl_air_curtain.jpg",
+                  "image": "assets/product-images/acl_air_curtain.webp",
                   "description": "Durable air curtain designed for commercial and industrial doorways to prevent dust and insects while retaining indoor temperature."
                 },
                 {
                   "id": "1.7.1.2",
                   "product_name": "ACM - Air Curtain",
-                  "image": "assets/product-images/acm_air_curtain.jpg",
+                  "image": "assets/product-images/acm_air_curtain.webp",
                   "description": "High-performance air curtain for medium-traffic entrances, ensuring better airflow control and energy savings."
                 }
                 
@@ -542,34 +542,34 @@
               "image": "assets/product-images/air_side_accessories.png",
               "description": "Air side accessories that enhance airflow control, distribution, and system efficiency in HVAC applications.",
               "productList": [
-                { "id": "1.8.1.1", "product_name": "Hepa Filters", "image": "assets/product-images/hepa_filters.jpg", "description": "High-efficiency particulate air filters to remove fine airborne particles." },
+                { "id": "1.8.1.1", "product_name": "Hepa Filters", "image": "assets/product-images/hepa_filters.webp", "description": "High-efficiency particulate air filters to remove fine airborne particles." },
                 { "id": "1.8.1.2", "product_name": "Inertial Filters", "image": "assets/product-images/inertial_filters.jpg", "description": "Utilizes inertia to capture larger particles in airflow." },
                 { "id": "1.8.1.3", "product_name": "Marine Oil & Gas Dampers", "image": "assets/product-images/marine_dampers.jpg", "description": "Heavy-duty dampers for offshore oil and gas applications." },
-                { "id": "1.8.1.4", "product_name": "Duct Heaters", "image": "assets/product-images/duct_heaters.jpg", "description": "Electric or hot water-based heaters for HVAC ducts." },
-                { "id": "1.8.1.5", "product_name": "Electric Heater", "image": "assets/product-images/electric_heater.jpg", "description": "Electric-powered air heating element for controlled heating." },
+                { "id": "1.8.1.4", "product_name": "Duct Heaters", "image": "assets/product-images/duct_heater.webp", "description": "Electric or hot water-based heaters for HVAC ducts." },
+                { "id": "1.8.1.5", "product_name": "Electric Heater", "image": "assets/product-images/electric_heater.jpeg", "description": "Electric-powered air heating element for controlled heating." },
                 { "id": "1.8.1.6", "product_name": "Blast Valves", "image": "assets/product-images/blast_valves.jpg", "description": "Designed to protect ventilation systems from pressure surges." },
-                { "id": "1.8.1.7", "product_name": "Tunnel Dumpers", "image": "assets/product-images/tunnel_dumpers.jpg", "description": "Controls airflow in tunnel ventilation systems." },
+                { "id": "1.8.1.7", "product_name": "Tunnel Dumpers", "image": "assets/product-images/tunnel_dumpers.webp", "description": "Controls airflow in tunnel ventilation systems." },
                 { "id": "1.8.1.8", "product_name": "Smoke & Heat Exhaust Vents", "image": "assets/product-images/smoke_heat_vents.jpg", "description": "Exhausts smoke and heat in case of fire." },
                 { "id": "1.8.1.9", "product_name": "Silicon & Fire Stoppers", "image": "assets/product-images/fire_stoppers.jpg", "description": "Seals and protects penetrations in fire-rated constructions." },
-                { "id": "1.8.1.10", "product_name": "Fire Rated Coating", "image": "assets/product-images/fire_rated_coating.jpg", "description": "Protective coating to delay fire spread on ducts and surfaces." },
+                { "id": "1.8.1.10", "product_name": "Fire Rated Coating", "image": "assets/product-images/fire_coated_fire_rated_ducts.png", "description": "Protective coating to delay fire spread on ducts and surfaces." },
                 { "id": "1.8.1.11", "product_name": "Trench Heaters", "image": "assets/product-images/trench_heaters.jpg", "description": "Low-profile floor heaters for perimeter heating." },
-                { "id": "1.8.1.12", "product_name": "Smoke and Fire Curtains", "image": "assets/product-images/smoke_fire_curtains.jpg", "description": "Automatic curtains for smoke and fire containment." },
-                { "id": "1.8.1.13", "product_name": "Stainless Steel Air Outlets", "image": "assets/product-images/ss_air_outlets.jpg", "description": "Durable air outlets suitable for hygienic and aesthetic environments." },
+                { "id": "1.8.1.12", "product_name": "Smoke and Fire Curtains", "image": "assets/product-images/smoke_fire_curtains.jpeg", "description": "Automatic curtains for smoke and fire containment." },
+                { "id": "1.8.1.13", "product_name": "Stainless Steel Air Outlets", "image": "assets/product-images/stainless_steel_air_outlet.png", "description": "Durable air outlets suitable for hygienic and aesthetic environments." },
                 { "id": "1.8.1.14", "product_name": "Addressable Controller", "image": "assets/product-images/addressable_controller.jpg", "description": "Smart controller for individual device communication in HVAC systems." },
                 { "id": "1.8.1.15", "product_name": "AHU Air Cleaner Trion EFB", "image": "assets/product-images/ahu_trion_efb.jpg", "description": "Advanced air purification for Air Handling Units." },
                 { "id": "1.8.1.16", "product_name": "FCU Return Air Cleaners", "image": "assets/product-images/fcu_return_air.jpg", "description": "Filters returning air in Fan Coil Units." },
-                { "id": "1.8.1.17", "product_name": "Ducted Air Cleaners", "image": "assets/product-images/ducted_air_cleaners.jpg", "description": "Inline air cleaners for ducted systems." },
-                { "id": "1.8.1.18", "product_name": "Independent Air Cleaners", "image": "assets/product-images/independent_air_cleaners.jpg", "description": "Standalone air purifiers for room-level filtration." },
+                { "id": "1.8.1.17", "product_name": "Ducted Air Cleaners", "image": "assets/product-images/ducted_air_cleaners.jpeg", "description": "Inline air cleaners for ducted systems." },
+                { "id": "1.8.1.18", "product_name": "Independent Air Cleaners", "image": "assets/product-images/independent _air_cleaners.webp", "description": "Standalone air purifiers for room-level filtration." },
                 { "id": "1.8.1.19", "product_name": "Modular HEPA Air Purifier", "image": "assets/product-images/modular_hepa_purifier.jpg", "description": "Modular units offering scalable HEPA filtration." },
-                { "id": "1.8.1.20", "product_name": "Kitchen Oil Purification", "image": "assets/product-images/kitchen_oil_purification.jpg", "description": "Removes oil particles from commercial kitchen exhaust." },
-                { "id": "1.8.1.21", "product_name": "Kitchen Odor Purification", "image": "assets/product-images/kitchen_odor_purification.jpg", "description": "Neutralizes odors in commercial kitchen systems." },
+                { "id": "1.8.1.20", "product_name": "Kitchen Oil Purification", "image": "assets/product-images/kitchen_oil_purification.avif", "description": "Removes oil particles from commercial kitchen exhaust." },
+                { "id": "1.8.1.21", "product_name": "Kitchen Odor Purification", "image": "assets/product-images/kitchen_odor_purification.webp", "description": "Neutralizes odors in commercial kitchen systems." },
                 { "id": "1.8.1.22", "product_name": "FAN Filter Units", "image": "assets/product-images/fan_filter_units.jpg", "description": "Integrated fan and filtration modules for cleanrooms." },
                 { "id": "1.8.1.23", "product_name": "Thermostats and Sensors", "image": "assets/product-images/thermostats_sensors.jpg", "description": "Controls and monitors environmental parameters in HVAC." },
                 { "id": "1.8.1.24", "product_name": "VAV Wall Mounted Controller", "image": "assets/product-images/vav_controller.jpg", "description": "Wall-mounted control unit for Variable Air Volume systems." },
                 { "id": "1.8.1.25", "product_name": "Supports and Hangers", "image": "assets/product-images/supports_hangers.jpg", "description": "Mounting accessories for duct and equipment support." },
                 { "id": "1.8.1.26", "product_name": "Flexible Duct Connector", "image": "assets/product-images/flexible_connector.jpg", "description": "Flexible connections to reduce vibration and misalignment." },
-                { "id": "1.8.1.27", "product_name": "Flexible Duct", "image": "assets/product-images/flexible_duct.jpg", "description": "Flexible air distribution ducting for limited space installations." },
-                { "id": "1.8.1.28", "product_name": "Duct Accessories", "image": "assets/product-images/duct_accessories.jpg", "description": "General fittings and accessories for ductwork systems." },
+                { "id": "1.8.1.27", "product_name": "Flexible Duct", "image": "assets/product-images/flexible_duct.webp", "description": "Flexible air distribution ducting for limited space installations." },
+                { "id": "1.8.1.28", "product_name": "Duct Accessories", "image": "assets/product-images/spiral_duct_accessories.jpg", "description": "General fittings and accessories for ductwork systems." },
                 { "id": "1.8.1.29", "product_name": "Rubber Inserts", "image": "assets/product-images/rubber_inserts.jpg", "description": "Used for vibration isolation in HVAC mounts." }
                   ]
               }
@@ -591,13 +591,13 @@
                 {
                   "id": "1.9.1.1",
                   "product_name": "EXLE - Pipe and Duct Insulation",
-                  "image": "assets/product-images/exle_pipe_duct_insulation.jpg",
+                  "image": "assets/product-images/exle_pipe_duct_insulation.jpeg",
                   "description": "High-performance insulation for both pipes and ductwork to reduce heat loss and prevent condensation."
                 },
                 {
                   "id": "1.9.1.2",
                   "product_name": "Rubber Insulation",
-                  "image": "assets/product-images/rubber_insulation.jpg",
+                  "image": "assets/product-images/rubber_insulation.avif",
                   "description": "Flexible rubber-based insulation ideal for preventing condensation and thermal loss in HVAC systems."
                 }
               ]
