@@ -52,7 +52,7 @@
                 {
                   "id": "1.1.1.6",
                   "product_name": "PalDuct Panel Accessories, Adhesive Material & Components",
-                  "image": "assets/product-images/palduct _panel _acc.jpg",
+                  "image": "assets/product-images/palduct_panel_acc.jpg",
                   "description": "Air distribution and ventilation components"
                 }
               ]
@@ -423,19 +423,19 @@
                 {
                   "id": "1.6.1.1",
                   "product_name": "Square Ceiling Diffusers",
-                  "image": "assets/product-images/square_ceiling_diffusers.jpg",
+                  "image": "assets/product-images/square_ceiling_diffuser.jpeg",
                   "description": "Provides even air distribution in ceiling-mounted HVAC systems."
                 },
                 {
                   "id": "1.6.1.2",
                   "product_name": "Grill and Registers",
-                  "image": "assets/product-images/grill_and_registers.jpg",
+                  "image": "assets/product-images/grill_and_registers.png",
                   "description": "Controls air flow direction and volume at duct openings."
                 },
                 {
                   "id": "1.6.1.3",
                   "product_name": "Linear Diffusers",
-                  "image": "assets/product-images/linear_diffusers.jpg",
+                  "image": "assets/product-images/linear_diffusers.jpeg",
                   "description": "Slim-profile diffusers ideal for modern interior air distribution."
                 },
                 {
@@ -477,19 +477,19 @@
                 {
                   "id": "1.6.1.10",
                   "product_name": "Jet Nozzles",
-                  "image": "assets/product-images/jet_nozzles.jpg",
+                  "image": "assets/product-images/Jet_nozzles.jpeg",
                   "description": "Long-throw diffusers for large spaces like auditoriums."
                 },
                 {
                   "id": "1.6.1.11",
                   "product_name": "Disc Valve",
-                  "image": "assets/product-images/disc_valve.jpg",
+                  "image": "assets/product-images/disc_valve.webp",
                   "description": "Compact air valves for supply and exhaust air applications."
                 },
                 {
                   "id": "1.6.1.12",
                   "product_name": "Drum Louver Diffuser",
-                  "image": "assets/product-images/drum_louver_diffuser.jpg",
+                  "image": "assets/product-images/drum _louver_diffuser.jpeg",
                   "description": "Adjustable nozzle diffuser for directional air control."
                 }
 
@@ -514,13 +514,13 @@
                 {
                   "id": "1.7.1.1",
                   "product_name": "ACL - Air Curtain",
-                  "image": "assets/product-images/acl_air_curtain.jpg",
+                  "image": "assets/product-images/acl_air_curtain.webp",
                   "description": "Durable air curtain designed for commercial and industrial doorways to prevent dust and insects while retaining indoor temperature."
                 },
                 {
                   "id": "1.7.1.2",
                   "product_name": "ACM - Air Curtain",
-                  "image": "assets/product-images/acm_air_curtain.jpg",
+                  "image": "assets/product-images/acm_air_curtain.webp",
                   "description": "High-performance air curtain for medium-traffic entrances, ensuring better airflow control and energy savings."
                 }
                 
@@ -542,34 +542,34 @@
               "image": "assets/product-images/air_side_accessories.png",
               "description": "Air side accessories that enhance airflow control, distribution, and system efficiency in HVAC applications.",
               "productList": [
-                { "id": "1.8.1.1", "product_name": "Hepa Filters", "image": "assets/product-images/hepa_filters.jpg", "description": "High-efficiency particulate air filters to remove fine airborne particles." },
+                { "id": "1.8.1.1", "product_name": "Hepa Filters", "image": "assets/product-images/hepa_filters.webp", "description": "High-efficiency particulate air filters to remove fine airborne particles." },
                 { "id": "1.8.1.2", "product_name": "Inertial Filters", "image": "assets/product-images/inertial_filters.jpg", "description": "Utilizes inertia to capture larger particles in airflow." },
                 { "id": "1.8.1.3", "product_name": "Marine Oil & Gas Dampers", "image": "assets/product-images/marine_dampers.jpg", "description": "Heavy-duty dampers for offshore oil and gas applications." },
-                { "id": "1.8.1.4", "product_name": "Duct Heaters", "image": "assets/product-images/duct_heaters.jpg", "description": "Electric or hot water-based heaters for HVAC ducts." },
-                { "id": "1.8.1.5", "product_name": "Electric Heater", "image": "assets/product-images/electric_heater.jpg", "description": "Electric-powered air heating element for controlled heating." },
+                { "id": "1.8.1.4", "product_name": "Duct Heaters", "image": "assets/product-images/duct_heater.webp", "description": "Electric or hot water-based heaters for HVAC ducts." },
+                { "id": "1.8.1.5", "product_name": "Electric Heater", "image": "assets/product-images/electric_heater.jpeg", "description": "Electric-powered air heating element for controlled heating." },
                 { "id": "1.8.1.6", "product_name": "Blast Valves", "image": "assets/product-images/blast_valves.jpg", "description": "Designed to protect ventilation systems from pressure surges." },
-                { "id": "1.8.1.7", "product_name": "Tunnel Dumpers", "image": "assets/product-images/tunnel_dumpers.jpg", "description": "Controls airflow in tunnel ventilation systems." },
+                { "id": "1.8.1.7", "product_name": "Tunnel Dumpers", "image": "assets/product-images/tunnel_dumpers.webp", "description": "Controls airflow in tunnel ventilation systems." },
                 { "id": "1.8.1.8", "product_name": "Smoke & Heat Exhaust Vents", "image": "assets/product-images/smoke_heat_vents.jpg", "description": "Exhausts smoke and heat in case of fire." },
                 { "id": "1.8.1.9", "product_name": "Silicon & Fire Stoppers", "image": "assets/product-images/fire_stoppers.jpg", "description": "Seals and protects penetrations in fire-rated constructions." },
-                { "id": "1.8.1.10", "product_name": "Fire Rated Coating", "image": "assets/product-images/fire_rated_coating.jpg", "description": "Protective coating to delay fire spread on ducts and surfaces." },
+                { "id": "1.8.1.10", "product_name": "Fire Rated Coating", "image": "assets/product-images/fire_coated_fire_rated_ducts.png", "description": "Protective coating to delay fire spread on ducts and surfaces." },
                 { "id": "1.8.1.11", "product_name": "Trench Heaters", "image": "assets/product-images/trench_heaters.jpg", "description": "Low-profile floor heaters for perimeter heating." },
-                { "id": "1.8.1.12", "product_name": "Smoke and Fire Curtains", "image": "assets/product-images/smoke_fire_curtains.jpg", "description": "Automatic curtains for smoke and fire containment." },
-                { "id": "1.8.1.13", "product_name": "Stainless Steel Air Outlets", "image": "assets/product-images/ss_air_outlets.jpg", "description": "Durable air outlets suitable for hygienic and aesthetic environments." },
+                { "id": "1.8.1.12", "product_name": "Smoke and Fire Curtains", "image": "assets/product-images/smoke_fire_curtains.jpeg", "description": "Automatic curtains for smoke and fire containment." },
+                { "id": "1.8.1.13", "product_name": "Stainless Steel Air Outlets", "image": "assets/product-images/stainless_steel_air_outlet.png", "description": "Durable air outlets suitable for hygienic and aesthetic environments." },
                 { "id": "1.8.1.14", "product_name": "Addressable Controller", "image": "assets/product-images/addressable_controller.jpg", "description": "Smart controller for individual device communication in HVAC systems." },
                 { "id": "1.8.1.15", "product_name": "AHU Air Cleaner Trion EFB", "image": "assets/product-images/ahu_trion_efb.jpg", "description": "Advanced air purification for Air Handling Units." },
                 { "id": "1.8.1.16", "product_name": "FCU Return Air Cleaners", "image": "assets/product-images/fcu_return_air.jpg", "description": "Filters returning air in Fan Coil Units." },
-                { "id": "1.8.1.17", "product_name": "Ducted Air Cleaners", "image": "assets/product-images/ducted_air_cleaners.jpg", "description": "Inline air cleaners for ducted systems." },
-                { "id": "1.8.1.18", "product_name": "Independent Air Cleaners", "image": "assets/product-images/independent_air_cleaners.jpg", "description": "Standalone air purifiers for room-level filtration." },
+                { "id": "1.8.1.17", "product_name": "Ducted Air Cleaners", "image": "assets/product-images/ducted_air_cleaners.jpeg", "description": "Inline air cleaners for ducted systems." },
+                { "id": "1.8.1.18", "product_name": "Independent Air Cleaners", "image": "assets/product-images/independent _air_cleaners.webp", "description": "Standalone air purifiers for room-level filtration." },
                 { "id": "1.8.1.19", "product_name": "Modular HEPA Air Purifier", "image": "assets/product-images/modular_hepa_purifier.jpg", "description": "Modular units offering scalable HEPA filtration." },
-                { "id": "1.8.1.20", "product_name": "Kitchen Oil Purification", "image": "assets/product-images/kitchen_oil_purification.jpg", "description": "Removes oil particles from commercial kitchen exhaust." },
-                { "id": "1.8.1.21", "product_name": "Kitchen Odor Purification", "image": "assets/product-images/kitchen_odor_purification.jpg", "description": "Neutralizes odors in commercial kitchen systems." },
+                { "id": "1.8.1.20", "product_name": "Kitchen Oil Purification", "image": "assets/product-images/kitchen_oil_purification.avif", "description": "Removes oil particles from commercial kitchen exhaust." },
+                { "id": "1.8.1.21", "product_name": "Kitchen Odor Purification", "image": "assets/product-images/kitchen_odor_purification.webp", "description": "Neutralizes odors in commercial kitchen systems." },
                 { "id": "1.8.1.22", "product_name": "FAN Filter Units", "image": "assets/product-images/fan_filter_units.jpg", "description": "Integrated fan and filtration modules for cleanrooms." },
                 { "id": "1.8.1.23", "product_name": "Thermostats and Sensors", "image": "assets/product-images/thermostats_sensors.jpg", "description": "Controls and monitors environmental parameters in HVAC." },
                 { "id": "1.8.1.24", "product_name": "VAV Wall Mounted Controller", "image": "assets/product-images/vav_controller.jpg", "description": "Wall-mounted control unit for Variable Air Volume systems." },
                 { "id": "1.8.1.25", "product_name": "Supports and Hangers", "image": "assets/product-images/supports_hangers.jpg", "description": "Mounting accessories for duct and equipment support." },
                 { "id": "1.8.1.26", "product_name": "Flexible Duct Connector", "image": "assets/product-images/flexible_connector.jpg", "description": "Flexible connections to reduce vibration and misalignment." },
-                { "id": "1.8.1.27", "product_name": "Flexible Duct", "image": "assets/product-images/flexible_duct.jpg", "description": "Flexible air distribution ducting for limited space installations." },
-                { "id": "1.8.1.28", "product_name": "Duct Accessories", "image": "assets/product-images/duct_accessories.jpg", "description": "General fittings and accessories for ductwork systems." },
+                { "id": "1.8.1.27", "product_name": "Flexible Duct", "image": "assets/product-images/flexible_duct.webp", "description": "Flexible air distribution ducting for limited space installations." },
+                { "id": "1.8.1.28", "product_name": "Duct Accessories", "image": "assets/product-images/spiral_duct_accessories.jpg", "description": "General fittings and accessories for ductwork systems." },
                 { "id": "1.8.1.29", "product_name": "Rubber Inserts", "image": "assets/product-images/rubber_inserts.jpg", "description": "Used for vibration isolation in HVAC mounts." }
                   ]
               }
@@ -591,13 +591,13 @@
                 {
                   "id": "1.9.1.1",
                   "product_name": "EXLE - Pipe and Duct Insulation",
-                  "image": "assets/product-images/exle_pipe_duct_insulation.jpg",
+                  "image": "assets/product-images/exle_pipe_duct_insulation.jpeg",
                   "description": "High-performance insulation for both pipes and ductwork to reduce heat loss and prevent condensation."
                 },
                 {
                   "id": "1.9.1.2",
                   "product_name": "Rubber Insulation",
-                  "image": "assets/product-images/rubber_insulation.jpg",
+                  "image": "assets/product-images/rubber_insulation.avif",
                   "description": "Flexible rubber-based insulation ideal for preventing condensation and thermal loss in HVAC systems."
                 }
               ]
@@ -620,19 +620,19 @@
                 {
                   "id": "1.10.1.1",
                   "product_name": "AHU Valve Package",
-                  "image": "assets/product-images/ahu_valve_package.jpg",
+                  "image": "assets/product-images/ahu_valve_package.png",
                   "description": "Valve set designed for Air Handling Units to control water flow in HVAC systems."
                 },
                 {
                   "id": "1.10.1.2",
                   "product_name": "FCU Valve Package",
-                  "image": "assets/product-images/fcu_valve_package.jpg",
+                  "image": "assets/product-images/fcu_valve_package.png",
                   "description": "Compact valve kits used with Fan Coil Units for efficient temperature control."
                 },
                 {
                   "id": "1.10.1.3",
                   "product_name": "Water Works Valves",
-                  "image": "assets/product-images/water_works_valves.jpg",
+                  "image": "assets/product-images/water_works_valve.jpg",
                   "description": "Heavy-duty valves used in water supply and distribution systems."
                 },
                 {
@@ -644,7 +644,7 @@
                 {
                   "id": "1.10.1.5",
                   "product_name": "Welded Fittings",
-                  "image": "assets/product-images/welded_fittings.jpg",
+                  "image": "assets/product-images/welded_fittings.webp",
                   "description": "Welded pipe connectors that ensure leak-free and durable joints."
                 },
                 {
@@ -656,7 +656,7 @@
                 {
                   "id": "1.10.1.7",
                   "product_name": "Electric Actuators",
-                  "image": "assets/product-images/electric_actuators.jpg",
+                  "image": "assets/product-images/electric_actuators.jpeg",
                   "description": "Motor-driven devices for controlling valve operations automatically."
                 },
                 {
@@ -680,7 +680,7 @@
                 {
                   "id": "1.10.1.11",
                   "product_name": "BTU (Energy) Meters",
-                  "image": "assets/product-images/btu_meters.jpg",
+                  "image": "assets/product-images/btu_meters.webp",
                   "description": "Measure thermal energy consumed in HVAC systems for billing and analysis."
                 },
                 {
@@ -698,7 +698,7 @@
                 {
                   "id": "1.10.1.14",
                   "product_name": "Globe Valve",
-                  "image": "assets/product-images/globe_valve.jpg",
+                  "image": "assets/product-images/globe_valve.webp",
                   "description": "Designed for throttling flow and accurate regulation."
                 },
                 {
@@ -716,13 +716,13 @@
                 {
                   "id": "1.10.1.17",
                   "product_name": "Butterfly Valve",
-                  "image": "assets/product-images/butterfly_valve.jpg",
+                  "image": "assets/product-images/butterfly_valve.jpeg",
                   "description": "Rotary valve for isolating or regulating flow in HVAC pipelines."
                 },
                 {
                   "id": "1.10.1.18",
                   "product_name": "Stainer",
-                  "image": "assets/product-images/stainer.jpg",
+                  "image": "assets/product-images/stainer.webp",
                   "description": "Removes debris and protects valves and pumps from damage."
                 },
                 {
@@ -740,25 +740,25 @@
                 {
                   "id": "1.10.1.21",
                   "product_name": "Solenoid Valve",
-                  "image": "assets/product-images/solenoid_valve.jpg",
+                  "image": "assets/product-images/solenoid_valve.webp",
                   "description": "Electromechanically operated valve for flow control."
                 },
                 {
                   "id": "1.10.1.22",
                   "product_name": "Zone Valve",
-                  "image": "assets/product-images/zone_valve.jpg",
+                  "image": "assets/product-images/zone_valve.avif",
                   "description": "Controls flow to specific zones in a heating or cooling system."
                 },
                 {
                   "id": "1.10.1.23",
                   "product_name": "Pressure Reducing Valve",
-                  "image": "assets/product-images/pressure_reducing_valve.jpg",
+                  "image": "assets/product-images/pressure_reducing_valve.avif",
                   "description": "Reduces inlet pressure to a desired outlet pressure level."
                 },
                 {
                   "id": "1.10.1.24",
                   "product_name": "Balancing Valve",
-                  "image": "assets/product-images/balancing_valve.jpg",
+                  "image": "assets/product-images/balancing_valve.jpeg",
                   "description": "Ensures proper distribution of fluid flow in HVAC systems."
                 }
               ]
@@ -811,7 +811,7 @@
                 {
                   "id": "1.11.1.6",
                   "product_name": "Transfer Fan",
-                  "image": "assets/product-images/transfer_fan.jpg",
+                  "image": "assets/product-images/transfer_fan.jpeg",
                   "description": "Designed to move air from one zone to another, maintaining balanced airflow."
                 },
                 {
@@ -855,7 +855,7 @@
                 {
                   "id": "1.11.2.4",
                   "product_name": "Multistage Centrifugal Pumps",
-                  "image": "assets/product-images/multistage_centrifugal_pumps.jpg",
+                  "image": "assets/product-images/multistage_centrifugal_pumps.webp",
                   "description": "High-pressure pumps ideal for applications requiring significant head, such as high-rise buildings."
                 },
                 {
@@ -875,25 +875,25 @@
                 {
                   "id": "1.11.3.1",
                   "product_name": "Air Handling Units",
-                  "image": "assets/product-images/air_handling_units.jpg",
+                  "image": "assets/product-images/air_handling_units.webp",
                   "description": "Central units designed to condition and circulate air as part of a complete HVAC system."
                 },
                 {
                   "id": "1.11.3.2",
                   "product_name": "Heat Recovery Units",
-                  "image": "assets/product-images/heat_recovery_units.jpg",
+                  "image": "assets/product-images/heat_recovery_units.webp",
                   "description": "Systems that recover heat from exhaust air to improve energy efficiency in ventilation systems."
                 },
                 {
                   "id": "1.11.3.3",
                   "product_name": "Fresh Air Handling Units",
-                  "image": "assets/product-images/fresh_air_handling_units.jpg",
+                  "image": "assets/product-images/fresh_air_handling_units.png",
                   "description": "AHUs designed specifically to supply and condition fresh outdoor air into indoor spaces."
                 },
                 {
                   "id": "1.11.3.4",
                   "product_name": "Ducted Fan Coil Units - Chilled Water",
-                  "image": "assets/product-images/ducted_fcu_chilled_water.jpg",
+                  "image": "assets/product-images/ducted_fcu_chilled_water.webp",
                   "description": "Concealed fan coil units using chilled water for air conditioning in ducted HVAC applications."
                 },
                 {
@@ -911,19 +911,19 @@
                 {
                   "id": "1.11.3.7",
                   "product_name": "DX Units",
-                  "image": "assets/product-images/dx_units.jpg",
+                  "image": "assets/product-images/dx_units.png",
                   "description": "Direct expansion systems used for cooling applications with built-in refrigerant-based coils."
                 },
                 {
                   "id": "1.11.3.8",
                   "product_name": "Heat Exchanger",
-                  "image": "assets/product-images/heat_exchanger.jpg",
+                  "image": "assets/product-images/heat_recovery_units.webp",
                   "description": "Devices used to transfer heat efficiently between two or more fluids."
                 },
                 {
                   "id": "1.11.3.9",
                   "product_name": "Air Separator",
-                  "image": "assets/product-images/air_separator.jpg",
+                  "image": "assets/product-images/air_separator.png",
                   "description": "Used in HVAC piping systems to eliminate trapped air, enhancing thermal efficiency."
                 },
                 {
@@ -935,7 +935,7 @@
                 {
                   "id": "1.11.3.11",
                   "product_name": "Pressurization Units",
-                  "image": "assets/product-images/pressurization_units.jpg",
+                  "image": "assets/product-images/pressurization_units.webp",
                   "description": "Equipment designed to maintain air pressure differentials to control airflow and prevent backflow."
                 }
           ]
@@ -945,7 +945,7 @@
         {
           "id": "1.12",
           "cate_name": "Controls",
-          "image": "assets/product-images/controls.png",
+          "image": "assets/product-images/controls.jpg",
           "description": "Advanced HVAC controls that optimize system performance, enhance energy efficiency, and provide seamless operation.",
           "slug" : "controls",
           "productList": [
@@ -958,13 +958,13 @@
                 {
                   "id": "1.15.1",
                   "product_name": "VFD (Variable Frequency Drive)",
-                  "image": "assets/product-images/vfd.jpg",
+                  "image": "assets/product-images/vfd.webp",
                   "description": "Electronic device used to control motor speed and torque by varying motor input frequency and voltage."
                 },
                 {
                   "id": "1.15.2",
                   "product_name": "FCU Control Panel",
-                  "image": "assets/product-images/fcu_control_panel.jpg",
+                  "image": "assets/product-images/fcu_control_panel.jpeg",
                   "description": "Panel designed to manage and automate operations of Fan Coil Units in HVAC systems."
                 },
                 {
@@ -976,7 +976,7 @@
                 {
                   "id": "1.15.4",
                   "product_name": "Pump Control Panels",
-                  "image": "assets/product-images/pump_control_panel.jpg",
+                  "image": "assets/product-images/pump_control_panel.webp",
                   "description": "Panels that automate and protect pump operations in HVAC and plumbing systems."
                 }
               ]
@@ -990,7 +990,29 @@
           "image": "assets/product-images/crit_env_displacement_ventilation.jpeg",
           "description": "Intertek certified critical environment and displacement ventilation systems ensuring optimal air quality and precise control in sensitive areas.",
           "slug" : "critical-environment",
-          "productList": []
+                    "productList": [
+            {
+              "id": "1.13.1",
+              "cate_name": "Controls",
+              "image": "assets/product-images/controls.png",
+              "description": "Advanced HVAC controls that optimize system performance, enhance energy efficiency, and provide seamless operation.",
+              "productList": [
+                {
+                  "id": "1.13.1.1",
+                  "product_name": "Laminar Flow Diffuser",
+                  "image": "assets/product-images/laminar_flow_diffuser.jpeg",
+                  "description": "Electronic device used to control motor speed and torque by varying motor input frequency and voltage."
+                },
+                {
+                  "id": "1.13.1.2",
+                  "product_name": "Displacement Flow Diffuser",
+                  "image": "assets/product-images/displacement_flow_diffusers.jpeg",
+                  "description": "Panel designed to manage and automate operations of Fan Coil Units in HVAC systems."
+                }
+              ]
+            }
+
+          ]
         }
       ]
     },
@@ -1060,16 +1082,561 @@
       ]
     },
     {
-      "id": "3",
+      "id": "2",
       "cate_name": "Plumbing",
       "image": "assets/product-images/plumbing.png",
-      "description": "Plumbing systems including water and drainage",
+      "description": "Complete plumbing systems including piping, fixtures, valves, and accessories",
       "slug": "plumbing",
       "productList": [
-        { "id": "3.1", "cate_name": "Domestic Water Pipes and Fittings", "image": "assets/product-images/domestic_pipes.png", "description": "", "productList": [] },
-        { "id": "3.2", "cate_name": "Drainage Pipes and Fittings", "image": "assets/product-images/drainage_pipes.png", "description": "", "productList": [] },
-        { "id": "3.3", "cate_name": "Control Valves and Accessories", "image": "assets/product-images/control_valves.png", "description": "", "productList": [] },
-        { "id": "3.4", "cate_name": "Plumbing Equipment", "image": "assets/product-images/plumbing_equipment.png", "description": "", "productList": [] }
+        {
+          "id": "2.1",
+          "cate_name": "Pipes and Fittings",
+          "image": "assets/product-images/pipes_and_fittings.jpg",
+          "description": "Various types of plumbing pipes and fittings",
+          "slug": "pipes-and-fittings",
+          "productList": [
+            {
+              "id": "2.1.1",
+              "product_name": "uPVC Drainage Pipes & Fittings",
+              "image": "assets/product-images/upvc_drainage_pipes_and_fittings.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.2",
+              "product_name": "uPVC High Pressure Pipes & Fittings",
+              "image": "assets/product-images/upvc_high_pressure_pipes_and_fittings.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.3",
+              "product_name": "HDPE Drainage Pipes & Fittings",
+              "image": "assets/product-images/hdpe_drainage_pipes_and_fittings.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.4",
+              "product_name": "PPR Pipes & Fittings",
+              "image": "assets/product-images/ppr_pipes_and_fittings.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.5",
+              "product_name": "PE-X Pipes & Fittings",
+              "image": "assets/product-images/pex_pipes_and_fittings.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.6",
+              "product_name": "Fabricated Plumbing Products",
+              "image": "assets/product-images/fabricated_plumbing_products.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.7",
+              "product_name": "uPVC Ball Valves",
+              "image": "assets/product-images/upvc_ball_valves.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.8",
+              "product_name": "CPVC Pipes & Fittings",
+              "image": "assets/product-images/cpvc_pipes_and_fittings.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.9",
+              "product_name": "Pipes Clamps & Supports",
+              "image": "assets/product-images/pipes_clamps_and_supports.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.10",
+              "product_name": "Plumbing Accessories",
+              "image": "assets/product-images/plumbing_accessories.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.11",
+              "product_name": "PVC",
+              "image": "assets/product-images/pvc.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.12",
+              "product_name": "PEX (Cross-linked Polyethylene)",
+              "image": "assets/product-images/pex_crosslinked_polyethylene.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.13",
+              "product_name": "Copper pipes and fittings",
+              "image": "assets/product-images/copper_pipes_and_fittings.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.14",
+              "product_name": "Floor Drain",
+              "image": "assets/product-images/floor_drain.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.15",
+              "product_name": "Balcony Drain",
+              "image": "assets/product-images/balcony_drain.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.16",
+              "product_name": "Roof Drain",
+              "image": "assets/product-images/roof_drain.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.17",
+              "product_name": "Shower Drain",
+              "image": "assets/product-images/shower_drain.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.18",
+              "product_name": "Area Drain",
+              "image": "assets/product-images/area_drain.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.19",
+              "product_name": "Trench / Channel Drain",
+              "image": "assets/product-images/trench_channel_drain.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.20",
+              "product_name": "Gully Trap",
+              "image": "assets/product-images/gully_trap.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.1.21",
+              "product_name": "Scupper Drain",
+              "image": "assets/product-images/scupper_drain.jpg",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "cate_name": "Infrastructure Pipes",
+          "image": "assets/product-images/infrastructure_pipes.jpg",
+          "description": "Infrastructure-grade pipes and fittings for water, telecom, and utilities",
+          "slug": "infrastructure-pipes",
+          "productList": [
+            {
+              "id": "2.2.1",
+              "product_name": "uPVC Pressure Pipes & Fittings",
+              "image": "assets/product-images/upvc_pressure_pipes_and_fittings.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.2.2",
+              "product_name": "HDPE / MDPE Pipes & Fittings",
+              "image": "assets/product-images/hdpe_mdpe_pipes_and_fittings.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.2.3",
+              "product_name": "uPVC & GRP Well Casings and Screens",
+              "image": "assets/product-images/upvc_and_grp_well_casings_and_screens.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.2.4",
+              "product_name": "uPVC & GRP Fabricated Manholes",
+              "image": "assets/product-images/upvc_and_grp_fabricated_manholes.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.2.5",
+              "product_name": "Telecommunication Cable Ducts",
+              "image": "assets/product-images/telecommunication_cable_ducts.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.2.6",
+              "product_name": "LDPE Irrigation Pipes",
+              "image": "assets/product-images/ldpe_irrigation_pipes.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.2.7",
+              "product_name": "Reinforced Thermoplastic Pipes",
+              "image": "assets/product-images/reinforced_thermoplastic_pipes.jpg",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "cate_name": "Plumbing Valves and Accessories",
+          "image": "assets/product-images/plumbing_valves_and_accessories.jpg",
+          "description": "Valves and accessories for flow and pressure control",
+          "slug": "plumbing-valves-and-accessories",
+          "productList": [
+            {
+              "id": "2.3.1",
+              "product_name": "Ball Valve",
+              "image": "assets/product-images/ball_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.2",
+              "product_name": "Gate Valve",
+              "image": "assets/product-images/gate_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.3",
+              "product_name": "Check Valve",
+              "image": "assets/product-images/check_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.4",
+              "product_name": "Control water flow and pressure.",
+              "image": "assets/product-images/control_water_flow_and_pressure.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.5",
+              "product_name": "Pressure Reducing Valve (PRV)",
+              "image": "assets/product-images/pressure_reducing_valve_prv.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.6",
+              "product_name": "Globe Valve",
+              "image": "assets/product-images/globe_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.7",
+              "product_name": "Hose bibs",
+              "image": "assets/product-images/hose_bibs.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.8",
+              "product_name": "Strainers and filters",
+              "image": "assets/product-images/strainers_and_filters.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.9",
+              "product_name": "Traps",
+              "image": "assets/product-images/traps.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.10",
+              "product_name": "Air vents",
+              "image": "assets/product-images/air_vents.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.11",
+              "product_name": "Meters and gauges",
+              "image": "assets/product-images/meters_and_gauges.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.12",
+              "product_name": "Angle Valve",
+              "image": "assets/product-images/angle_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.13",
+              "product_name": "Butterfly Valve",
+              "image": "assets/product-images/butterfly_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.14",
+              "product_name": "Float Valve",
+              "image": "assets/product-images/float_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.15",
+              "product_name": "Foot Valve",
+              "image": "assets/product-images/foot_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.16",
+              "product_name": "Stop Valve",
+              "image": "assets/product-images/stop_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.3.17",
+              "product_name": "Mixing Valve (Thermostatic Mixing Valve - TMV)",
+              "image": "assets/product-images/mixing_valve_thermostatic_mixing_valve_tmv.jpg",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "cate_name": "Plumbing Fixtures",
+          "image": "assets/product-images/plumbing_fixtures.jpg",
+          "description": "Plumbing appliances and sanitary fixtures",
+          "slug": "plumbing-fixtures",
+          "productList": [
+            {
+              "id": "2.4.1",
+              "product_name": "WC",
+              "image": "assets/product-images/wc.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.2",
+              "product_name": "Wash Basin",
+              "image": "assets/product-images/wash_basin.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.3",
+              "product_name": "Sink",
+              "image": "assets/product-images/sink.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.4",
+              "product_name": "Bathtub",
+              "image": "assets/product-images/bathtub.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.5",
+              "product_name": "Shower",
+              "image": "assets/product-images/shower.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.6",
+              "product_name": "Kitchen sink",
+              "image": "assets/product-images/kitchen_sink.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.7",
+              "product_name": "Facet",
+              "image": "assets/product-images/facet.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.8",
+              "product_name": "Garbage disposal",
+              "image": "assets/product-images/garbage_disposal.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.9",
+              "product_name": "Laundry Tub",
+              "image": "assets/product-images/laundry_tub.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.10",
+              "product_name": "Washing Machine Hookups",
+              "image": "assets/product-images/washing_machine_hookups.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.11",
+              "product_name": "Hose Bib",
+              "image": "assets/product-images/hose_bib.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.12",
+              "product_name": "Urinal",
+              "image": "assets/product-images/urinal.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.13",
+              "product_name": "Bidet",
+              "image": "assets/product-images/bidet.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.4.14",
+              "product_name": "Drinking Fountain",
+              "image": "assets/product-images/drinking_fountain.jpg",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "2.5",
+          "cate_name": "Plumbing Equipments and Accessories",
+          "image": "assets/product-images/plumbing_equipments_and_accessories.jpg",
+          "description": "Pumps, tanks, meters, and advanced control systems",
+          "slug": "plumbing-equipments-and-accessories",
+          "productList": [
+            {
+              "id": "2.5.1",
+              "product_name": "Sump Pump",
+              "image": "assets/product-images/sump_pump.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.2",
+              "product_name": "Booster Pump",
+              "image": "assets/product-images/booster_pump.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.3",
+              "product_name": "Circulator Pump",
+              "image": "assets/product-images/circulator_pump.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.4",
+              "product_name": "Well Pump",
+              "image": "assets/product-images/well_pump.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.5",
+              "product_name": "Sewage Ejector Pump",
+              "image": "assets/product-images/sewage_ejector_pump.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.6",
+              "product_name": "Grinder Pump",
+              "image": "assets/product-images/grinder_pump.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.7",
+              "product_name": "Utility Pump",
+              "image": "assets/product-images/utility_pump.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.8",
+              "product_name": "Condensate Pump",
+              "image": "assets/product-images/condensate_pump.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.9",
+              "product_name": "Pressure Tank",
+              "image": "assets/product-images/pressure_tank.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.10",
+              "product_name": "Water Storage Tank",
+              "image": "assets/product-images/water_storage_tank.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.11",
+              "product_name": "Water Meter",
+              "image": "assets/product-images/water_meter.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.12",
+              "product_name": "Pressure Regulator",
+              "image": "assets/product-images/pressure_regulator.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.13",
+              "product_name": "Water Filter/Softener",
+              "image": "assets/product-images/water_filtersoftener.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.14",
+              "product_name": "Check Valve",
+              "image": "assets/product-images/check_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.15",
+              "product_name": "Gate/Ball Valves",
+              "image": "assets/product-images/gateball_valves.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.16",
+              "product_name": "Float Valve",
+              "image": "assets/product-images/float_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.17",
+              "product_name": "Backflow Preventer",
+              "image": "assets/product-images/backflow_preventer.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.18",
+              "product_name": "Expansion Tank",
+              "image": "assets/product-images/expansion_tank.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.19",
+              "product_name": "Piping System (PEX, PVC, Copper)",
+              "image": "assets/product-images/piping_system_pex_pvc_copper.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.20",
+              "product_name": "Water Heater (Geyser / Boiler / Tankless)",
+              "image": "assets/product-images/water_heater_geyser_boiler_tankless.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.21",
+              "product_name": "Storage Tank (if not tankless)",
+              "image": "assets/product-images/storage_tank_if_not_tankless.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.22",
+              "product_name": "Thermostat",
+              "image": "assets/product-images/thermostat.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.23",
+              "product_name": "Temperature & Pressure Relief Valve (TPR Valve)",
+              "image": "assets/product-images/temperature_and_pressure_relief_valve_tpr_valve.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.24",
+              "product_name": "Insulation (Pipe & Tank)",
+              "image": "assets/product-images/insulation_pipe_and_tank.jpg",
+              "description": ""
+            },
+            {
+              "id": "2.5.25",
+              "product_name": "Control Panel (in advanced systems)",
+              "image": "assets/product-images/control_panel_in_advanced_systems.jpg",
+              "description": ""
+            }
+          ]
+        }
       ]
     },
     {
