@@ -61,7 +61,7 @@ export class ChildProductsListComponent {
   }
 
   openWhatsApp(product: any): void {
-    const phoneNumber = "+13453278457"; // No brackets or symbols
+    const phoneNumber = "+13453213005"; // No brackets or symbols
     const productName = product?.product_name || "a product";
     const category = this.selectedChildCategory['cate_name'] || "HVAC Equipment";
 
@@ -84,6 +84,10 @@ Please share more details including specifications and pricing. Thank you!`;
     const url = `${baseUrl}?phone=${phoneNumber}&text=${encodedMsg}`;
     window.open(url, "_blank");
   }
+
+  onImageError(event: Event) {
+  (event.target as HTMLImageElement).src = 'assets/no-products-found.png';
+}
 
 
 

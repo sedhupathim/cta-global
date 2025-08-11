@@ -17,7 +17,7 @@ export class HeaderComponent {
   navItems = [
     { name: 'Home', label: 'Home' },
     { name: 'AboutUs', label: 'About Us'},
-    { name: 'Service', label: 'Service' },
+    { name: 'Products', label: 'Products' },
     { name: 'ContactUs', label: 'Contact Us' }
   ];
 
@@ -72,5 +72,9 @@ export class HeaderComponent {
      this.router.navigate([ `/products/category/${categorySlug}/${subCategory['slug']}`]);
    } 
   }
+
+onImageError(event: Event) {
+  (event.target as HTMLImageElement).src = 'assets/no-products-found.png';
+}
 
 }

@@ -36,5 +36,9 @@ export class ProductListComponent {
   openProducts(slug: any) {
     this.router.navigate([`/products/category/${this.category_slug}/${slug}`]);
   }
+
+  onImageError(event: Event) {
+  (event.target as HTMLImageElement).src = 'assets/no-products-found.png';
+}
   
 }

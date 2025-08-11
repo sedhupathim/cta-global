@@ -34,21 +34,21 @@
         <li class="nav-item" *ngFor="let item of navItems">
 
           <!-- Wrap link + dropdown in one container for hover detection -->
-          <div class="nav-link-wrapper" (mouseenter)="item.name === 'Service' ? showDropdown = true : null"
-            (mouseleave)="item.name === 'Service' ? showDropdown = false : null">
+          <div class="nav-link-wrapper" (mouseenter)="item.name === 'Products' ? showDropdown = true : null"
+            (mouseleave)="item.name === 'Products' ? showDropdown = false : null">
             <a class="nav-link" [class.active]="activeTab === item.name" (click)="setActiveTab(item.name)">
               {{ item.label }}
             </a>
 
-            <div class="dropdown-content" *ngIf="item.name === 'Service' && showDropdown">
+            <div class="dropdown-content" *ngIf="item.name === 'Products' && showDropdown">
               <div class="d-flex dropdown-list">
 
 
-                <div class="dropdown-inner d-flex">
+                <div class="dropdown-inner d-flex" >
 
                   <!-- Left Side Categories Start-->
                   <ul class="category-list">
-                    <li *ngFor="let category of categories" (mouseenter)="hoveredCategory = category"
+                    <li *ngFor="let category of categories.slice(0,4)" (mouseenter)="hoveredCategory = category"
                       (click)="openProduct(category)">
                       {{ category.cate_name }}
                     </li>
@@ -62,7 +62,10 @@
                       <div class="row">
                         <div class="col-md-4 d-flex align-items-center product-item flex-column cursor" 
                           *ngFor="let subCategory of hoveredCategory.productList.slice(0,9)" (click)="openSubProducts(hoveredCategory?.slug,subCategory)">
-                          <img [src]="subCategory.image" alt="Product Image" class="product-image">
+                          <img [src]="subCategory.image" alt="Product Image" class="product-image" *ngIf="subCategory.image" (error)="onImageError($event)">
+                          <img alt="Product Image" class="no-product-image" *ngIf="!subCategory.image"
+                            src="assets/no-products-found.png">
+
                           <span class="drop-desc">
                             {{ subCategory.cate_name }}
                           </span>
@@ -116,12 +119,12 @@
        margin-right: 0px;
        margin-left: 20px;
        "></span>
-    <a _ngcontent-ng-c1564174539="" href="tel:+1 (345) 327-8457" class="menu-icon with-bg cursor" style="
+    <a _ngcontent-ng-c1564174539="" href="tel:+1 (345) 321-3005" class="menu-icon with-bg cursor" style="
        margin-right: 0px;
        margin-left: 20px;
        ">
      <img src="../../assets/telephone.png" width="24" height="24" alt="">
-       +1 (345) 327-8457 
+       +1 (345) 321-3005 
     </a>
  </div>
   </div>
