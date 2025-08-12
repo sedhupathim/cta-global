@@ -798,8 +798,8 @@
                 },
                 {
                   "id": "1.11.1.4",
-                  "product_name": "Roof Fans",
-                  "image": "assets/product-images/roof_fans.jpg",
+                  "product_name": "Ceiling Mounted Toiltet/ Kitchen Exhaust Fans",
+                  "image": "assets/product-images/ceiling_mounted_fans.webp",
                   "description": "Mounted on rooftops for extraction of stale air and fumes from buildings."
                 },
                 {
@@ -917,7 +917,7 @@
                 {
                   "id": "1.11.3.8",
                   "product_name": "Heat Exchanger",
-                  "image": "assets/product-images/heat_recovery_units.webp",
+                  "image": "assets/product-images/heat_exchanger.jpg",
                   "description": "Devices used to transfer heat efficiently between two or more fluids."
                 },
                 {
